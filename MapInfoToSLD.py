@@ -1,6 +1,7 @@
 import re
-from pysld.style import StyleSld
 import dictionary
+
+denominator = '\n<MinScaleDenominator>34942642</MinScaleDenominator>\n' + '<MaxScaleDenominator>559082264</MaxScaleDenominator>\n'
 
 def splitLine(line):
     if 'Pen' in line and 'Brush' in line:
@@ -11,7 +12,6 @@ def splitLine(line):
 
 
 def convertBrush(line, key):
-  brushDict = dictionary.brushDict
   penDict = dictionary.penDict
 
   if len(line) == 2:
@@ -22,39 +22,38 @@ def convertBrush(line, key):
 
     brushattr = line[1].split()
     patternBrush = brushattr[1]
-    colorMain = brushattr[2]
-    colorBg = re.sub('0x', '', '#'+str(hex(int(brushattr[3].replace(")", "")))))
+    colorMain = re.sub('0x', '', '#'+str(hex(int(brushattr[2].replace(')', '')))))
+    colorBg = re.sub('0x', '', '#'+str(hex(int(brushattr[3].replace(')', '')))))
 
-    res = ''
-    res = res + dictionary.filterHeading + key + dictionary.filterFooting + '\n<Rule>'
+    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting  + denominator
 
-    for elem in brushDict[patternBrush]:
-        if elem == 'patternBrush':
-            elem = '''<se:OnlineResource xlink:href="images/''' + dictionary.brushDict[patternBrush] + '''.svg?fill=+ '''+ colorMain + '''" xlink:type="simple"/>'''
-        if elem == colorBg:
+    for elem in dictionary.brushDict:
+        if elem == 'pattern':
+            elem = '''<OnlineResource xlink:href="images/''' + str(dictionary.brushPattern[patternBrush]) + '''.svg?fill='''+ colorMain + '''" xlink:type="simple"/>'''
+        if elem == 'colorBg':
             elem = colorBg
         res += elem
 
-    for elem in penDict[patternPen]:
-        if elem == 'width':
-            elem = widthPen
-        if elem == 'color':
-            elem = colorPen
-        res += elem
+    if patternPen != 1:
+        for elem in penDict[patternPen]:
+            if elem == 'width':
+                elem = widthPen
+            if elem == 'color':
+                elem = colorPen
+            res += elem
 
-  return res + '\n</Rule>'
-
+  return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
 def convertPen(line, key):
     dict = dictionary.penDict
+
     penattr = line.split()
     width = penattr[1]
     pattern = int(penattr[2])
     color = re.sub('0x', '', '#'+str(hex(int(penattr[3].replace(")", "")))))
 
-    res = ''
-    res = res + dictionary.filterHeading + key + dictionary.filterFooting + '\n<Rule>'
+    res = '<FeatureTypeStyle>'  + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
 
     for elem in dict[pattern]:
         if elem == 'width':
@@ -63,7 +62,7 @@ def convertPen(line, key):
             elem = color
         res += elem
 
-    return res + '\n</Rule>'
+    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
 def convertLine(line, key):

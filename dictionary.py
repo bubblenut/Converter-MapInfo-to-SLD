@@ -26,13 +26,17 @@ filterFooting = '''</ogc:Literal>
         </ogc:Filter>'''
 
 
-penDict = {1: [],
-           2: ['''<LineSymbolizer>
+penDict = {
+            2: ['''<LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
                'color',
                '''</CssParameter>
-            <CssParameter name="stroke-width">'''],
+            <CssParameter name="stroke-width">''',
+               'width',
+               '''</CssParameter>
+          </Stroke>
+        </LineSymbolizer>'''],
            3: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
@@ -571,7 +575,8 @@ penDict = {1: [],
               </GraphicStroke>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
             </Stroke>
-          </LineSymbolizer>       
+          </LineSymbolizer>''',
+        '''       
           <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -779,21 +784,13 @@ penDict = {1: [],
             </Stroke>
           </LineSymbolizer>'''],
            59: ['''          <LineSymbolizer>
-<Stroke>
-  <GraphicStroke>
-    <Graphic>
-      <Mark>
-        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
-        <Fill>
-          <CssParameter name="fill">''',
+  <Stroke>
+    <CssParameter name="stroke">''',
                 'color',
                 '''</CssParameter>
-                    </Fill>
-                  </Mark>
-                </Graphic>
-              </GraphicStroke>
-            </Stroke>
-          </LineSymbolizer>''',
+    <CssParameter name="stroke-width">2</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
            '''<PointSymbolizer>
   <Geometry>
     <ogc:Function name="endPoint">
@@ -812,10 +809,8 @@ penDict = {1: [],
         <CssParameter name="stroke">''',
            'color',
            '''</CssParameter>
-        <CssParameter name="stroke-width">2</CssParameter>
       </Stroke>
     </Mark>
-    <Size>30</Size>
     <Rotation>
       <ogc:Function name="endAngle">
         <ogc:PropertyName>pg_geom</ogc:PropertyName>
@@ -824,21 +819,13 @@ penDict = {1: [],
   </Graphic>
 </PointSymbolizer>'''],
            60: ['''          <LineSymbolizer>
-<Stroke>
-  <GraphicStroke>
-    <Graphic>
-      <Mark>
-        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
-        <Fill>
-          <CssParameter name="fill">''',
+  <Stroke>
+    <CssParameter name="stroke">''',
                 'color',
                 '''</CssParameter>
-                    </Fill>
-                  </Mark>
-                </Graphic>
-              </GraphicStroke>
-            </Stroke>
-          </LineSymbolizer>''',
+    <CssParameter name="stroke-width">2</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
            '''<PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
@@ -857,87 +844,1106 @@ penDict = {1: [],
         <CssParameter name="stroke">''',
            'color',
            '''</CssParameter>
-        <CssParameter name="stroke-width">2</CssParameter>
       </Stroke>
     </Mark>
-    <Size>30</Size>
     <Rotation>
       <ogc:Function name="startAngle">
         <ogc:PropertyName>pg_geom</ogc:PropertyName>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>''']
+</PointSymbolizer>'''],
+           61: ['''          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#89</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+           'color',
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+           'color',
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>''',
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#76</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+           'color',
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+           'color',
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>'''],
+           62: ['''          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#90</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+           'color',
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+           'color',
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>'''],
+           63: ['''                  <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">8</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">4</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>'''],
+           66: ['''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''         <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+                'color',
+
+            '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+          <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+          <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+          <PerpendicularOffset>5</PerpendicularOffset>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+          <PerpendicularOffset>-5</PerpendicularOffset>
+        </LineSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#93</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#93</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>'''],
+           65: ['''                  <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">8</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">4</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>'''],
+
+           64: ['''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>''',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+          <PerpendicularOffset>5</PerpendicularOffset
+        </LineSymbolizer>''',
+
+                '''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+
+                'color',
+
+                '''</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+          <PerpendicularOffset>-5</PerpendicularOffset>
+        </LineSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#93</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>''',
+
+           '''<PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#93</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">''',
+
+           'color',
+
+           '''</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>'''],
+           68: ['''          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#97</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#98</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+
+           69: ['''          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#99</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#98</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>'''],
+           72: ['''          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#101</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">''',
+                '#0',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">5 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+                      <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+            <CssParameter name="stroke-dasharray">10 5</CssParameter>
+            <CssParameter name="stroke-dashoffset">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+           73:  ['''          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">''',
+                 'color',
+           '''</CssParameter>
+              <CssParameter name="stroke-width">4</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+            </Stroke>
+          </LineSymbolizer>''',
+                 '''          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">''', 'color', '''</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter> 
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>''',
+          '''<LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#ffffff</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+           74: ['''          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+                    <CssParameter name="stroke-width">4</CssParameter>
+                    <CssParameter name="stroke-linecap">round</CssParameter>
+                  </Stroke>
+                </LineSymbolizer>''',
+                '''          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+    <CssParameter name="stroke-linecap">round</CssParameter> 
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+                '''<LineSymbolizer>
+                   <Stroke>
+                     <CssParameter name="stroke">#999999</CssParameter>
+                     <CssParameter name="stroke-width">2</CssParameter>
+                     <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                     <CssParameter name="stroke-dashoffset">10</CssParameter>
+                   </Stroke>
+                 </LineSymbolizer>'''],
+           75: ['''          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+    <CssParameter name="stroke-linecap">round</CssParameter> 
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+                '''<LineSymbolizer>
+                   <Stroke>
+                     <CssParameter name="stroke">#999999</CssParameter>
+                     <CssParameter name="stroke-width">2</CssParameter>
+                     <CssParameter name="stroke-dasharray">10 10</CssParameter>
+                     <CssParameter name="stroke-dashoffset">10</CssParameter>
+                   </Stroke>
+                 </LineSymbolizer>'''],
+           76: ['''          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+                    <CssParameter name="stroke-width">4</CssParameter>
+                    <CssParameter name="stroke-linecap">round</CssParameter>
+                  </Stroke>
+                </LineSymbolizer>''',
+                '''          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+    <CssParameter name="stroke-linecap">round</CssParameter> 
+    <CssParameter name="stroke-dasharray">20 20</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+                '''<LineSymbolizer>
+                   <Stroke>
+                     <CssParameter name="stroke">#999999</CssParameter>
+                     <CssParameter name="stroke-width">2</CssParameter>
+                     <CssParameter name="stroke-dasharray">20 20</CssParameter>
+                     <CssParameter name="stroke-dashoffset">20</CssParameter>
+                   </Stroke>
+                 </LineSymbolizer>'''],
+           77: ['''          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+                    <CssParameter name="stroke-width">4</CssParameter>
+                    <CssParameter name="stroke-linecap">round</CssParameter>
+                  </Stroke>
+                </LineSymbolizer>''',
+                '''          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+    <CssParameter name="stroke-linecap">round</CssParameter> 
+    <CssParameter name="stroke-dasharray">15 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+                '''<LineSymbolizer>
+                   <Stroke>
+                     <CssParameter name="stroke">#999999</CssParameter>
+                     <CssParameter name="stroke-width">2</CssParameter>
+                     <CssParameter name="stroke-dasharray">10 15</CssParameter>
+                     <CssParameter name="stroke-dashoffset">15</CssParameter>
+                   </Stroke>
+                 </LineSymbolizer>'''],
+
+            78: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>'''
+                    ,'''       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#103</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+        79: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#104</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+        80: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">8</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#105</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+        81: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#106</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+           82: ['''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+    <CssParameter name="stroke-dashoffset">10</CssParameter>    
+  </Stroke>
+</LineSymbolizer>''',
+                '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">4.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+    <CssParameter name="stroke-dashoffset">10</CssParameter>    
+  </Stroke>
+</LineSymbolizer>'''],
+        83: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">8</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#108</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                'color',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+        84: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#109</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+                '#000000',
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+        85: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">12</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''<LineSymbolizer>
+            <Stroke>
+               <CssParameter name="stroke-width">4.5</CssParameter>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>'''],
+        86: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''<PointSymbolizer>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#110</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+           'color',
+           '''</CssParameter>
+      </Fill>
+    </Mark>
+  </Graphic>
+</PointSymbolizer>'''],
+        87: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''<PointSymbolizer>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#114</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+           'color',
+           '''</CssParameter>
+      </Fill>
+    </Mark>
+  </Graphic>
+</PointSymbolizer>'''],
+        88: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', '#000000', '''</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>'''],
+        89: [ '''<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">''', 'color', '''</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 2</CssParameter>
+  </Stroke>
+</LineSymbolizer>''',
+'''<PointSymbolizer>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#114</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">''',
+           'color',
+           '''</CssParameter>
+      </Fill>
+    </Mark>
+  </Graphic>
+</PointSymbolizer>''']}
+
+brushDict = [''' <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">''',
+             'colorBg',
+             '''</CssParameter>
+  </Fill>
+</PolygonSymbolizer>''',
+             ''' <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>\n''',
+             'pattern',
+             '''        \n<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>20</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>''']
 
 
-           }
-
-brushDict = {
-    2: 1,
-    3: 11,
-    4: 16,
-    5: 19,
-    6: 24,
-    7: 31,
-    8: 34,
-    12: 2,
-    13: 3,
-    14: 4,
-    15: 5,
-    16: 6,
-    17: 7,
-    18: 8,
-    19: 9,
-    20: 10,
-    21: 11,
-    22: 12,
-    23: 13,
-    24: 14,
-    25: 15,
-    26: 16,
-    27: 17,
-    28: 18,
-    29: 19,
-    30: 20,
-    31: 21,
-    32: 22,
-    33: 23,
-    34: 24,
-    35: 25,
-    36: 26,
-    37: 27,
-    38: 28,
-    39: 29,
-    40: 30,
-    41: 31,
-    42: 32,
-    43: 33,
-    44: 34,
-    45: 35,
-    46: 36,
-    47: 37,
-    48: 38,
-    49: 39,
-    50: 40,
-    51: 41,
-    52: 42,
-    53: 43,
-    54: 44,
-    55: 45,
-    56: 46,
-    57: 47,
-    58: 48,
-    59: 49,
-    60: 50,
-    61: 51,
-    62: 52,
-    63: 53,
-    64: 54,
-    65: 55,
-    66: 56,
-    67: 57,
-    68: 58,
-    69: 59,
-    70: 60,
-    71: 61
+brushPattern = {
+    '1': 1,
+    '2': 1,
+    '3': 11,
+    '4': 16,
+    '5': 19,
+    '6': 24,
+    '7': 31,
+    '8': 34,
+    '12': 2,
+    '13': 3,
+    '14': 4,
+    '15': 5,
+    '16': 6,
+    '17': 7,
+    '18': 8,
+    '19': 9,
+    '20': 10,
+    '21': 11,
+    '22': 12,
+    '23': 13,
+    '24': 14,
+    '25': 15,
+    '26': 16,
+    '27': 17,
+    '28': 18,
+    '29': 19,
+    '30': 20,
+    '31': 21,
+    '32': 22,
+    '33': 23,
+    '34': 24,
+    '35': 25,
+    '36': 26,
+    '37': 27,
+    '38': 28,
+    '39': 29,
+    '40': 30,
+    '41': 31,
+    '42': 32,
+    '43': 33,
+    '44': 34,
+    '45': 35,
+    '46': 36,
+    '47': 37,
+    '48': 38,
+    '49': 39,
+    '50': 40,
+    '51': 41,
+    '52': 42,
+    '53': 43,
+    '54': 44,
+    '55': 45,
+    '56': 46,
+    '57': 47,
+    '58': 48,
+    '59': 49,
+    '60': 50,
+    '61': 51,
+    '62': 52,
+    '63': 53,
+    '64': 54,
+    '65': 55,
+    '66': 56,
+    '67': 57,
+    '68': 58,
+    '69': 59,
+    '70': 60,
+    '71': 61
 }
