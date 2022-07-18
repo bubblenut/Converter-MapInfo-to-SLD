@@ -1,6 +1,7 @@
 import re
-from pysld.style import StyleSld
 import dictionary
+
+denominator = '\n<MinScaleDenominator>34942642</MinScaleDenominator>\n' + '<MaxScaleDenominator>559082264</MaxScaleDenominator>\n'
 
 def splitLine(line):
     if 'Pen' in line and 'Brush' in line:
@@ -10,57 +11,62 @@ def splitLine(line):
     return res
 
 
-def convertBrush(line):
-  filename = (" ".join(map(str,line))).replace(")", "")
+def convertBrush(line, key):
+  penDict = dictionary.penDict
 
   if len(line) == 2:
     penattr = line[0].split()
-    p1 = penattr[1]
-    p2 = penattr[2]
-    p3 = penattr[3]
+    widthPen = penattr[1]
+    patternPen = int(penattr[2])
+    colorPen = re.sub('0x', '', '#'+str(hex(int(penattr[3].replace(")", "")))))
 
     brushattr = line[1].split()
-    b1 = brushattr[1]
-    b2 = brushattr[2]
-    b3 = brushattr[3].replace(")", "")
+    patternBrush = brushattr[1]
+    colorMain = re.sub('0x', '', '#'+str(hex(int(brushattr[2].replace(')', '')))))
+    colorBg = re.sub('0x', '', '#'+str(hex(int(brushattr[3].replace(')', '')))))
 
-  with open (filename, 'w+') as outp:
-    simple_sld = StyleSld(style_name=filename,
-                          geom_type='polygon',
-                          fill_color=re.sub('0x', '', '#'+str(hex(int(b3)))),
-                          stroke_color=re.sub('0x', '', '#'+str(hex(int(p3)))),
-                          stroke_width=p1)
-    simple_sld_style = simple_sld.generate_simple_style()
-    outp.write(simple_sld_style)
+    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting  + denominator
 
+    for elem in dictionary.brushDict:
+        if elem == 'pattern':
+            elem = '''<OnlineResource xlink:href="images/''' + str(dictionary.brushPattern[patternBrush]) + '''.svg?fill='''+ colorMain + '''" xlink:type="simple"/>'''
+        if elem == 'colorBg':
+            elem = colorBg
+        res += elem
 
-def convertPen(line):
-   filename = (" ".join(map(str, line))).replace(")", "")
+    if patternPen != 1:
+        for elem in penDict[patternPen]:
+            if elem == 'width':
+                elem = widthPen
+            if elem == 'color':
+                elem = colorPen
+            res += elem
 
-   penattr = line.split()
-   p1 = penattr[1]
-   p2 = int(penattr[2])
-   p3 = int(penattr[3].replace(")", ""))
-
-   #Проверка на dasharray
-   dasharrayattr = None
-   if p2 >= 3 and p2 <= 14:
-       dasharrayattr = dictionary.penDict.get(p2)
+  return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
-   with open(filename + '.sld', 'w+') as outp:
-     simple_sld = StyleSld(style_name=filename,
-                           geom_type='line',
-                           stroke_color=re.sub('0x', '', '#'+str(hex(int(p3)))),
-                           stroke_width=p1,
-                           stroke_dasharray=dasharrayattr
-                           )
-     simple_sld_style = simple_sld.generate_simple_style()
-     outp.write(simple_sld_style)
+def convertPen(line, key):
+    dict = dictionary.penDict
+
+    penattr = line.split()
+    width = penattr[1]
+    pattern = int(penattr[2])
+    color = re.sub('0x', '', '#'+str(hex(int(penattr[3].replace(")", "")))))
+
+    res = '<FeatureTypeStyle>'  + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
+
+    for elem in dict[pattern]:
+        if elem == 'width':
+            elem = width
+        if elem == 'color':
+            elem = color
+        res += elem
+
+    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
-def convertLine(line):
-  if (len(line) == 2 and (('Brush' in line[0]) or ('Brush' in line[1]))) :
-    convertBrush(line)
+def convertLine(line, key):
+  if len(line) == 2:
+    return convertBrush(line, key)
   else:
-    convertPen(line)
+    return convertPen(line, key)
