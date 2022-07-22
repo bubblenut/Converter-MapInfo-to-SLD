@@ -950,30 +950,43 @@ penDict = {
     </Rotation>
   </Graphic>
 </PointSymbolizer>'''],
-           63: ['''                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">''',
+           63: ['''          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+
+                '#ffffff',
+
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>''',
+
+                '''          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
 
                 'color',
 
                 '''</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>''',
-
-                '''        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">''',
-
-                'color',
-
-                '''</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>''',
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>''',
 
            '''<PointSymbolizer>
   <Geometry>
@@ -1174,93 +1187,92 @@ penDict = {
     </Rotation>
   </Graphic>
 </PointSymbolizer>'''],
-           65: ['''                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">''',
+    65: ['''          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">''',
 
-                'color',
+         '#000000',
 
-                '''</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>''',
+         '''</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>''',
 
-                '''        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">''',
+         '''          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">''',
 
-                'color',
+         'color',
 
-                '''</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>''',
+         '''</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>''',
 
-           '''<PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="startPoint">
+         '''<PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">''',
+
+         '#000000',
+
+         '''</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="startAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer>''',
 
-           '''<PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="endPoint">
+         '''<PointSymbolizer>
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">''',
+
+         '#000000',
+
+         '''</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="endAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer>'''],
 
            64: ['''        <LineSymbolizer>
@@ -1855,6 +1867,16 @@ penDict = {
   </Graphic>
 </PointSymbolizer>''']}
 
+
+brushDictSimple = ['''          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">''',
+                   'colorMain',
+                   '''</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>''']
+
+
 brushDict = [''' <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">''',
@@ -1870,7 +1892,7 @@ brushDict = [''' <PolygonSymbolizer>
              'pattern',
              '''        \n<Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>

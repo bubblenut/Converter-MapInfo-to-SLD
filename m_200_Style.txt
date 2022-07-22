@@ -1,0 +1,4125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0"
+                       xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+                       xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+                       xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <NamedLayer>
+    <Name>All Layers</Name>
+    <UserStyle>
+      <Title>Styles for TestoreWGS</Title>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (15,2,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,9,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">5 5</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,83,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#ffffff</CssParameter>
+    <CssParameter name="stroke-width">8</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#108</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,6,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">8 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (19,65,8443391)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#80d5ff</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,12,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">8 8</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,59,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#80c0</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+  </Stroke>
+</LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#76</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#80c0</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#80c0</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,26,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#67</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,26,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#67</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,83,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#ffffff</CssParameter>
+    <CssParameter name="stroke-width">8</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#108</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(15,2,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,2,38368)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#95e0</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,81,65535)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#ffff</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#106</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,88,9493503)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#90dbff</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#000000</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,10,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 7</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,62,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+  </Stroke>
+</LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#90</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#0</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,72,10543359)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#101</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">5 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+                      <CssParameter name="stroke">#a0e0ff</CssParameter>
+            <CssParameter name="stroke-dasharray">10 5</CssParameter>
+            <CssParameter name="stroke-dashoffset">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (12,2,38368)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#95e0</CssParameter>
+            <CssParameter name="stroke-width">0.2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(2,2,38368) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#95e0</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,9,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">5 5</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,62,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">2</CssParameter>
+  </Stroke>
+</LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#90</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#0</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,5,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">4 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#80c0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#80c0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,10,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 7</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#80c0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#80c0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,6,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">8 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(12,2,38368) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#95e0</CssParameter>
+            <CssParameter name="stroke-width">0.2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,72,10543359) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#101</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">5 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+                      <CssParameter name="stroke">#a0e0ff</CssParameter>
+            <CssParameter name="stroke-dasharray">10 5</CssParameter>
+            <CssParameter name="stroke-dashoffset">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,7,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">16 3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,88,9493503) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#90dbff</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#000000</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,24720) Brush (16,65535,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/6.svg?fill=#ffff" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#6090</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,24720) Brush(16,65535,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/6.svg?fill=#ffff" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#6090</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,32960) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,0) Brush (48,0,13697023)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#d0ffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/38.svg?fill=#0" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,32960) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#80c0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,14,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">11 5 1 5</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (20,24,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+<Stroke>
+  <CssParameter name="stroke">#0</CssParameter>
+             <CssParameter name="stroke-width">1.0</CssParameter>
+             <CssParameter name="stroke-dasharray">6 2 1 2 1 2</CssParameter>
+           </Stroke>
+         </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(20,24,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+<Stroke>
+  <CssParameter name="stroke">#0</CssParameter>
+             <CssParameter name="stroke-width">1.0</CssParameter>
+             <CssParameter name="stroke-dasharray">6 2 1 2 1 2</CssParameter>
+           </Stroke>
+         </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,14,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">11 5 1 5</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,28,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#69</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,28,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#69</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,86,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><PointSymbolizer>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#110</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+    </Mark>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(60,0,8245248) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#7dd000</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/50.svg?fill=#0" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,81,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#106</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (2,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,86,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><PointSymbolizer>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#110</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+    </Mark>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,78,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#103</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,10,0) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 7</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (60,0,8245248)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#7dd000</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/50.svg?fill=#0" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (2,14737632,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#e0e0e0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,81,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#106</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(2,14737632,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#e0e0e0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,78,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#103</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,10506240) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#a05000</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#a05000</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,3,0) Brush(15,7585792,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,16777215) Brush (17,11556864,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/7.svg?fill=#b05800" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,4,0) Brush(15,7585792,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">2 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,1,16777215) Brush(17,11556864,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/7.svg?fill=#b05800" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,3,0) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,3,0) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,3,0) Brush (15,7585792,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,4,0) Brush (16,10157824,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/6.svg?fill=#9aff00" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">2 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,4,0) Brush (15,7585792,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">2 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,4,0) Brush(16,10157824,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/6.svg?fill=#9aff00" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">2 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,16777215) Brush (64,13658112,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/54.svg?fill=#d06800" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,1,16777215) Brush(64,13658112,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/54.svg?fill=#d06800" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,10506240) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#a05000</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,8388608)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#800000</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,8388608) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#800000</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,3,10506240) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#a05000</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">1 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,49,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#82</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,49,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#82</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,11556864) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#66</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#84</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#b05800</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,6,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#b05800</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">8 2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,7,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#b05800</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">16 3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,7,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#b05800</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">16 3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,2,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#b05800</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(2,2,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#b05800</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,73,15774720)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#f0b400</CssParameter>
+              <CssParameter name="stroke-width">4</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#f0b400</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter> 
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer><LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#ffffff</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,79,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#104</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,2,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,66,14708736)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#e07000</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#e07000</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>         <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#e07000</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            <CssParameter name="stroke-dashoffset">10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#e07000</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+        </LineSymbolizer>        <LineSymbolizer>
+          <Stroke>
+          <CssParameter name="stroke">#e07000</CssParameter>
+          <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+          <PerpendicularOffset>5</PerpendicularOffset>
+        </LineSymbolizer>        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#e07000</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+            <CssParameter name="stroke-dasharray">10 10</CssParameter>
+          </Stroke>
+          <PerpendicularOffset>-5</PerpendicularOffset>
+        </LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#93</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#e07000</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#e07000</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#93</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#e07000</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#e07000</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,82,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+    <CssParameter name="stroke-dashoffset">10</CssParameter>    
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">4.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+    <CssParameter name="stroke-dashoffset">10</CssParameter>    
+  </Stroke>
+</LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (15,80,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">8</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#105</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,65,15774720) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#f0b400</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,88,15774720) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#f0b400</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#000000</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,79,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">1</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#104</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(15,7,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
+            <CssParameter name="stroke-dasharray">16 3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,68,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#97</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#98</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,65,15774720)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#f0b400</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(2,2,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">2</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,46,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#80</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,73,15774720) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#f0b400</CssParameter>
+              <CssParameter name="stroke-width">4</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#f0b400</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter> 
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer><LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#ffffff</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,88,15774720)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#f0b400</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#000000</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,68,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+<Stroke>
+  <GraphicStroke>
+    <Graphic>
+      <Mark>
+        <WellKnownName>ttf://Line_Styles#97</WellKnownName>
+        <Fill>
+          <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>       
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#98</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,7,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">16 3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,63,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#0</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#0</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,63,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#0</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#0</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#0</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(15,80,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+    <CssParameter name="stroke-width">8</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>       <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#105</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,7,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+            <CssParameter name="stroke-dasharray">16 3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (15,7,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+        <LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
+            <CssParameter name="stroke-dasharray">16 3</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,0) Brush (2,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+
+
+
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (2,12632256,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c0c0c0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(2,12632256,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c0c0c0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(2,16777215,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,63,16750640)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ff9830</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#ff9830</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#ff9830</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#ff9830</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#ff9830</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,63,16750640) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ff9830</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="startPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#ff9830</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#ff9830</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="startAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer><PointSymbolizer>
+  <Geometry>
+    <ogc:Function name="endPoint">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Geometry>
+  <Graphic>
+    <Mark>
+      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+      <Fill>
+        <CssParameter name="fill">#ff9830</CssParameter>
+      </Fill>
+      <Stroke>
+        <CssParameter name="stroke">#ff9830</CssParameter>
+      </Stroke>
+    </Mark>
+    <Rotation>
+      <ogc:Function name="endAngle">
+        <ogc:PropertyName>pg_geom</ogc:PropertyName>
+      </ogc:Function>
+    </Rotation>
+  </Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,65,0)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#0</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,65,0) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#0</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
+      <ogc:PropertyName>pg_geom</ogc:PropertyName>
+    </ogc:Function>
+  </Rotation>
+</Graphic>
+</PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,85,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#ffffff</CssParameter>
+    <CssParameter name="stroke-width">12</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+            <Stroke>
+               <CssParameter name="stroke-width">4.5</CssParameter>
+              <CssParameter name="stroke-dasharray">10 10</CssParameter>
+              <CssParameter name="stroke-dashoffset">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,88,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#ffffff</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#000000</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,88,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+<LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#ffffff</CssParameter>
+    <CssParameter name="stroke-width">3.5</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer><LineSymbolizer>
+  <Stroke>
+    <CssParameter name="stroke">#000000</CssParameter>
+    <CssParameter name="stroke-width">10</CssParameter>
+    <CssParameter name="stroke-dasharray">10 10</CssParameter>
+  </Stroke>
+</LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (20,2,0) Brush (2,16750640,13697023)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff9830</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">20</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen(20,2,0) Brush(2,16750640,13697023) &lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff9830</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">#0</CssParameter>
+            <CssParameter name="stroke-width">20</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,1,16777215) Brush (15,7585792,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+ <PolygonSymbolizer>
+  <Fill>
+	<CssParameter name="fill">#ffffff</CssParameter>
+  </Fill>
+</PolygonSymbolizer> <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>
+<OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
+<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,1,16777215) Brush (2,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>
+<MinScaleDenominator>34124</MinScaleDenominator>
+<MaxScaleDenominator>2183916</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+
+
+</UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
