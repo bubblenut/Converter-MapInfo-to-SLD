@@ -19,23 +19,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34942642</MinScaleDenominator>
 <MaxScaleDenominator>559082264</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#b9d7ff" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#b9d7ff</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#c6c9f5</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -54,23 +42,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34942642</MinScaleDenominator>
 <MaxScaleDenominator>559082264</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#c3c3c3" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c3c3c3</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#a2a283</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>

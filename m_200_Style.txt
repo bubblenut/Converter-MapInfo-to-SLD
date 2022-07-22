@@ -22,7 +22,7 @@
 <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
-            <CssParameter name="stroke-width">15</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
           </Stroke>
         </LineSymbolizer>
 </Rule>
@@ -176,63 +176,70 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#80d5ff</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#80d5ff</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="startPoint">
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#80d5ff</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#80d5ff</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#80d5ff</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="startAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="endPoint">
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#80d5ff</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#80d5ff</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="endAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
@@ -434,7 +441,7 @@
 <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
-            <CssParameter name="stroke-width">15</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
           </Stroke>
         </LineSymbolizer>
 </Rule>
@@ -755,7 +762,7 @@
 <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#95e0</CssParameter>
-            <CssParameter name="stroke-width">12</CssParameter>
+            <CssParameter name="stroke-width">0.2</CssParameter>
           </Stroke>
         </LineSymbolizer>
 </Rule>
@@ -1021,7 +1028,7 @@
 <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#95e0</CssParameter>
-            <CssParameter name="stroke-width">12</CssParameter>
+            <CssParameter name="stroke-width">0.2</CssParameter>
           </Stroke>
         </LineSymbolizer>
 </Rule>
@@ -1130,7 +1137,7 @@
 <OnlineResource xlink:href="images/6.svg?fill=#ffff" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -1165,7 +1172,7 @@
 <OnlineResource xlink:href="images/6.svg?fill=#ffff" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -1188,23 +1195,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+<LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1235,7 +1226,7 @@
 <OnlineResource xlink:href="images/38.svg?fill=#0" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -1253,23 +1244,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+<LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1311,7 +1286,7 @@
         <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">#0</CssParameter>
-             <CssParameter name="stroke-width">20</CssParameter>
+             <CssParameter name="stroke-width">1.0</CssParameter>
              <CssParameter name="stroke-dasharray">6 2 1 2 1 2</CssParameter>
            </Stroke>
          </LineSymbolizer>
@@ -1331,7 +1306,7 @@
         <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">#0</CssParameter>
-             <CssParameter name="stroke-width">20</CssParameter>
+             <CssParameter name="stroke-width">1.0</CssParameter>
              <CssParameter name="stroke-dasharray">6 2 1 2 1 2</CssParameter>
            </Stroke>
          </LineSymbolizer>
@@ -1497,7 +1472,7 @@
 <OnlineResource xlink:href="images/50.svg?fill=#0" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -1555,23 +1530,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1655,23 +1618,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>        <LineSymbolizer>
+        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1703,7 +1650,7 @@
 <OnlineResource xlink:href="images/50.svg?fill=#0" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -1726,23 +1673,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#e0e0e0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#e0e0e0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1796,23 +1731,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#e0e0e0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#e0e0e0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1867,23 +1790,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>          <LineSymbolizer>
+          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -1939,7 +1846,7 @@
 <OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -1975,7 +1882,7 @@
 <OnlineResource xlink:href="images/7.svg?fill=#b05800" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2005,7 +1912,7 @@
 <OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2041,7 +1948,7 @@
 <OnlineResource xlink:href="images/7.svg?fill=#b05800" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2059,23 +1966,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>        <LineSymbolizer>
+        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2095,23 +1986,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>        <LineSymbolizer>
+        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2143,7 +2018,7 @@
 <OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2179,7 +2054,7 @@
 <OnlineResource xlink:href="images/6.svg?fill=#9aff00" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2215,7 +2090,7 @@
 <OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2251,7 +2126,7 @@
 <OnlineResource xlink:href="images/6.svg?fill=#9aff00" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2287,7 +2162,7 @@
 <OnlineResource xlink:href="images/54.svg?fill=#d06800" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2317,7 +2192,7 @@
 <OnlineResource xlink:href="images/54.svg?fill=#d06800" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -2392,23 +2267,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>        <LineSymbolizer>
+        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#a05000</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2516,23 +2375,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>          <LineSymbolizer>
+          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -2967,63 +2810,70 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#f0b400</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#f0b400</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="startPoint">
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#f0b400</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#f0b400</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#f0b400</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="startAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="endPoint">
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#f0b400</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#f0b400</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="endAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
@@ -3102,7 +2952,7 @@
         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">15</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
             <CssParameter name="stroke-dasharray">16 3</CssParameter>
           </Stroke>
         </LineSymbolizer>
@@ -3163,63 +3013,70 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#f0b400</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#f0b400</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="startPoint">
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#f0b400</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#f0b400</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#f0b400</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="startAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="endPoint">
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#f0b400</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#f0b400</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="endAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
@@ -3404,20 +3261,33 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
@@ -3475,20 +3345,33 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#0</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
@@ -3604,42 +3487,13 @@
         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">15</CssParameter>
+            <CssParameter name="stroke-width">0.5</CssParameter>
             <CssParameter name="stroke-dasharray">16 3</CssParameter>
           </Stroke>
         </LineSymbolizer>
 </Rule>
 </FeatureTypeStyle>
-<FeatureTypeStyle>
-<Rule>
 
-        <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>style</ogc:PropertyName>
-            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,16777215) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
-</Rule>
-</FeatureTypeStyle>
 <FeatureTypeStyle>
 <Rule>
 
@@ -3651,115 +3505,16 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
 </Rule>
 </FeatureTypeStyle>
-<FeatureTypeStyle>
-<Rule>
 
-        <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>style</ogc:PropertyName>
-            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,1,16777215) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
-</Rule>
-</FeatureTypeStyle>
-<FeatureTypeStyle>
-<Rule>
 
-        <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>style</ogc:PropertyName>
-            <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,32960) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
-</Rule>
-</FeatureTypeStyle>
-<FeatureTypeStyle>
-<Rule>
 
-        <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>style</ogc:PropertyName>
-            <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,1,32960) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
-</Rule>
-</FeatureTypeStyle>
 <FeatureTypeStyle>
 <Rule>
 
@@ -3771,23 +3526,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+<LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3806,23 +3545,7 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+<LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3841,23 +3564,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#c0c0c0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c0c0c0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3876,23 +3587,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#c0c0c0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#c0c0c0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3911,23 +3610,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#ffffff" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ffffff</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3946,20 +3633,33 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#ff9830</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#ff9830</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ff9830</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
@@ -4017,20 +3717,33 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#ff9830</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#ff9830</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
+          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ffffff</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#ff9830</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer><PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
@@ -4088,63 +3801,70 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="startPoint">
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#0</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#0</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#0</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="startAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="endPoint">
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#0</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#0</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="endAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
@@ -4159,63 +3879,70 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
-                  <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">8</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-          </Stroke>
-        </LineSymbolizer>        <LineSymbolizer>
-          <Stroke>
-            <CssParameter name="stroke">#0</CssParameter>
-            <CssParameter name="stroke-width">4</CssParameter>
-            <CssParameter name="stroke-dasharray">10 10</CssParameter>
-            <CssParameter name="stroke-dashoffset">10</CssParameter>
-          </Stroke>
-        </LineSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="startPoint">
+          <LineSymbolizer>
+                       <Stroke>
+                         <GraphicStroke>
+                           <Graphic>
+                             <Mark>
+                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                               <Fill>
+                                 <CssParameter name="fill">#000000</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer>          <LineSymbolizer>
+     <Stroke>
+       <GraphicStroke>
+         <Graphic>
+           <Mark>
+             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
+             <Fill>
+               <CssParameter name="fill">#0</CssParameter>
+             </Fill>
+           </Mark>
+         </Graphic>
+       </GraphicStroke>
+     </Stroke>
+   </LineSymbolizer><PointSymbolizer>
+<Geometry>
+  <ogc:Function name="startPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="startAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#0</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#0</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="startAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer><PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="endPoint">
+<Geometry>
+  <ogc:Function name="endPoint">
+    <ogc:PropertyName>pg_geom</ogc:PropertyName>
+  </ogc:Function>
+</Geometry>
+<Graphic>
+  <Mark>
+    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
+    <Fill>
+      <CssParameter name="fill">#000000</CssParameter>
+    </Fill>
+  </Mark>
+  <Rotation>
+    <ogc:Function name="endAngle">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
     </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">#0</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">#0</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="endAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
+  </Rotation>
+</Graphic>
 </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
@@ -4308,23 +4035,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#d0ffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#ff9830" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff9830</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">20</CssParameter>
@@ -4343,23 +4058,11 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#d0ffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#ff9830" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer><LineSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff9830</CssParameter>
+            </Fill>
+          </PolygonSymbolizer><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">20</CssParameter>
@@ -4390,7 +4093,7 @@
 <OnlineResource xlink:href="images/5.svg?fill=#73c000" xlink:type="simple"/>        
 <Format>image/svg+xml</Format>
      </ExternalGraphic>
-      <Size>20</Size>
+      <Size>2</Size>
     </Graphic>
    </GraphicFill>
   </Fill>
@@ -4408,85 +4111,15 @@
         </ogc:Filter>
 <MinScaleDenominator>34124</MinScaleDenominator>
 <MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
 </Rule>
 </FeatureTypeStyle>
-<FeatureTypeStyle>
-<Rule>
 
-        <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>style</ogc:PropertyName>
-            <ogc:Literal>&lt;MI_STYLE&gt;Pen (49,1,16777215) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
-</Rule>
-</FeatureTypeStyle>
-<FeatureTypeStyle>
-<Rule>
 
-        <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>style</ogc:PropertyName>
-            <ogc:Literal>&lt;MI_STYLE&gt;Pen(49,1,16777215) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
-  <Fill>
-	<CssParameter name="fill">#ffffff</CssParameter>
-  </Fill>
-</PolygonSymbolizer> <PolygonSymbolizer>
-  <Fill>
-    <GraphicFill>
-      <Graphic>
-      <ExternalGraphic>
-<OnlineResource xlink:href="images/1.svg?fill=#0" xlink:type="simple"/>        
-<Format>image/svg+xml</Format>
-     </ExternalGraphic>
-      <Size>20</Size>
-    </Graphic>
-   </GraphicFill>
-  </Fill>
-</PolygonSymbolizer>
-</Rule>
-</FeatureTypeStyle>
 </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
