@@ -1,7 +1,8 @@
 import re
 import dictionary
 
-denominator = '\n<MinScaleDenominator>34124</MinScaleDenominator>\n' + '<MaxScaleDenominator>2183916</MaxScaleDenominator>\n'
+#denominator = '\n<MinScaleDenominator>534</MinScaleDenominator>\n' + '<MaxScaleDenominator>2183916</MaxScaleDenominator>\n'
+denominator = ''
 
 def splitLine(line):
     if 'Pen' in line and 'Brush' in line:
@@ -9,6 +10,83 @@ def splitLine(line):
     else:
         res = re.sub(',|\(|\)\n', '', line)
     return res
+
+
+def convertSymbolV3(line, key):
+    symdict = dictionary.symbolDictV3
+
+    symattr = line.split()
+    pattern = int(symattr[1])
+    color = re.sub('0x', '', '#'+str(hex(int(symattr[2].replace(")", "")))))
+    size = symattr[3]
+
+    res = '<FeatureTypeStyle>'  + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
+
+    for elem in symdict:
+        if elem == 'pattern':
+            elem = pattern
+        if elem == 'color':
+            elem = color
+        if elem == 'size':
+            elem = size
+        res += elem
+
+    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
+
+
+def convertSymbolRaster(line, key):
+    symdict = dictionary.symbolDictRaster
+
+    symattr = line.split()
+    filename = int(symattr[1])
+    color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
+    size = symattr[3]
+    customstyle = symattr[4]
+
+    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
+
+    for elem in symdict:
+        if elem == 'filename':
+            elem = filename
+        if elem == 'color':
+            elem = color
+        if elem == 'size':
+            elem = size
+        #разобраться что за хрень этот кастом стайл
+        if elem == 'customstyle':
+            elem = customstyle
+        res += elem
+
+    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
+
+
+def convertSymbolTTF(line, key):
+    symdict = dictionary.symbolDictTTF
+
+    symattr = line.split()
+    shape = int(symattr[1])
+    color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
+    size = symattr[3]
+    fontname = symattr[4]
+    fontstyle = symattr[5]
+
+
+    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
+
+    for elem in symdict:
+        if elem == 'shape':
+            elem = shape
+        if elem == 'color':
+            elem = color
+        if elem == 'size':
+            elem = size
+        if elem == 'fontname':
+            elem = fontname
+        if elem == 'fontstyle':
+            elem = fontstyle
+        res += elem
+
+    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
 def convertBrush(line, key):

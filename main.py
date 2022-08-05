@@ -2,8 +2,8 @@ import MapInfoToSLD
 import dictionary
 import logger
 
-name = "m_200"
-
+# name = "m_w"
+name = input('Input NFileName')
 input = name + "_input.txt"
 keys = name + "_keys.txt"
 errors = name + "_errors.txt"
