@@ -14,12 +14,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (34,27552,18,"UZgrunt_bolota",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgrunt_bolota#34</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6ba0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(15,2,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">0.5</CssParameter>
@@ -35,10 +56,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,7,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -53,12 +71,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(34,27552,18,"UZgrunt_bolota",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgrunt_bolota#34</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6ba0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -97,12 +136,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (89,0,3,"NewSZGI",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://NewSZGI#89</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>3</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,88,9493503) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -139,10 +199,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (15,2,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">0.5</CssParameter>
@@ -158,10 +215,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -175,12 +229,81 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(37,32960,18,"UZgeopunkt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgeopunkt#37</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#80c0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(89,0,3,"NewSZGI",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://NewSZGI#89</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>3</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (37,32960,18,"UZgeopunkt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgeopunkt#37</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#80c0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,2,38368)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#95e0</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -196,10 +319,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,81,65535)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0</CssParameter>
               <CssParameter name="stroke-width">0.3</CssParameter>
@@ -229,12 +349,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (33,0,6,"UZgidrografia",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgidrografia#33</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>6</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,88,9493503)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -271,10 +412,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -290,10 +428,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,10,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -310,10 +445,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -354,10 +486,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,62,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">2</CssParameter>
@@ -395,10 +524,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -414,10 +540,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -456,12 +579,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (50,27552,12,"UZgidrografia",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgidrografia#50</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6ba0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,72,10543359)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -491,12 +635,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (57,44031,4,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#57</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#abff</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>4</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (12,2,38368)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#95e0</CssParameter>
             <CssParameter name="stroke-width">0.2</CssParameter>
@@ -510,12 +675,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(53,0,9,"UZgidrografia",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgidrografia#53</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>9</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(2,2,38368) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#95e0</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -531,10 +717,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,9,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -551,10 +734,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,62,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">2</CssParameter>
@@ -592,10 +772,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,5,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -612,10 +789,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -654,12 +828,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (74,128,12,"UZgidrografia",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgidrografia#74</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#80</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,9,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -676,10 +871,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,10,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -696,10 +888,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -738,12 +927,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (56,0,12,"UZgidrografia",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgidrografia#56</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,83,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#ffffff</CssParameter>
     <CssParameter name="stroke-width">8</CssParameter>
@@ -775,10 +985,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,6,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -795,10 +1002,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (19,65,8443391)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
                        <Stroke>
                          <GraphicStroke>
                            <Graphic>
@@ -871,12 +1075,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (36,32960,12,"UZgeopunkt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgeopunkt#36</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#80c0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -892,10 +1117,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,12,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -910,12 +1132,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (216,27552,12,"NewSZGI",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://NewSZGI#216</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#6ba0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,6,32960)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -932,10 +1175,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,59,32960) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#80c0</CssParameter>
     <CssParameter name="stroke-width">2</CssParameter>
@@ -973,10 +1213,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,26,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -1017,10 +1254,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,26,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -1061,10 +1295,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,83,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#ffffff</CssParameter>
     <CssParameter name="stroke-width">8</CssParameter>
@@ -1096,10 +1327,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(12,2,38368) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#95e0</CssParameter>
             <CssParameter name="stroke-width">0.2</CssParameter>
@@ -1115,10 +1343,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,72,10543359) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -1150,10 +1375,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,24720) Brush (16,65535,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -1185,10 +1407,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,24720) Brush(16,65535,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -1220,10 +1439,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,32960) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1239,10 +1455,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,0) Brush (48,0,13697023)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#d0ffff</CssParameter>
   </Fill>
@@ -1269,10 +1482,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,32960) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#80c0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1288,10 +1498,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,14,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1308,10 +1515,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1327,10 +1531,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (20,24,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">#0</CssParameter>
              <CssParameter name="stroke-width">1.0</CssParameter>
@@ -1347,10 +1548,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(20,24,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">#0</CssParameter>
              <CssParameter name="stroke-width">1.0</CssParameter>
@@ -1367,10 +1565,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,14,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1387,10 +1582,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,28,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -1431,10 +1623,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1450,10 +1639,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,28,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -1492,12 +1678,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (109,0,14,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#109</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>14</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,86,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
@@ -1521,12 +1728,57 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(109,0,14,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#109</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>14</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(33,0,12,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#33</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(60,0,8245248) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#7dd000</CssParameter>
   </Fill>
@@ -1558,10 +1810,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (2,14737632,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e0e0e0</CssParameter>
             </Fill>
@@ -1579,12 +1828,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(89,0,14,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#89</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>14</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,14,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1601,10 +1871,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,81,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0</CssParameter>
               <CssParameter name="stroke-width">0.3</CssParameter>
@@ -1636,10 +1903,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,14,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1654,12 +1918,129 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (105,0,15,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#105</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>15</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (89,0,14,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#89</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>14</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(76,0,12,"UZprom_obiekt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZprom_obiekt#76</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (170,0,20,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#170</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>20</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(105,0,15,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#105</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>15</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,81,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0</CssParameter>
               <CssParameter name="stroke-width">0.3</CssParameter>
@@ -1691,10 +2072,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(2,14737632,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#e0e0e0</CssParameter>
             </Fill>
@@ -1714,10 +2092,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -1756,12 +2131,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (33,0,11,"UZprom_obiekt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZprom_obiekt#33</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (2,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0</CssParameter>
             </Fill>
@@ -1779,12 +2175,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (45,0,12,"UZprom_obiekt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZprom_obiekt#45</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,5,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1801,10 +2218,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,86,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
@@ -1828,12 +2242,57 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(33,0,11,"UZprom_obiekt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZprom_obiekt#33</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (34,0,11,"UZstroenie_zdanie",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZstroenie_zdanie#34</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,78,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
@@ -1866,10 +2325,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,78,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
@@ -1900,12 +2356,81 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (52,0,12,"UZprom_obiekt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZprom_obiekt#52</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (33,0,12,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#33</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (42,10506240,14,"UZprom_obiekt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZprom_obiekt#42</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#a05000</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>14</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,10,0) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -1920,12 +2445,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (76,0,12,"UZprom_obiekt",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZprom_obiekt#76</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,10506240) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -1966,10 +2512,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (60,0,8245248)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#7dd000</CssParameter>
   </Fill>
@@ -2001,16 +2544,37 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,9,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
             <CssParameter name="stroke-dasharray">5 5</CssParameter>
           </Stroke>
         </LineSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(140,0,11,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#140</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
 <FeatureTypeStyle>
@@ -2021,10 +2585,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,9,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2039,12 +2600,225 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (42,10506240,11,"UZgrunt_bolota",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZgrunt_bolota#42</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#a05000</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (39,0,20,"UZrastenie",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZrastenie#39</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>20</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (102,0,10,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#102</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (79,0,15,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#79</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>15</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (38,0,12,"UZrastenie",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZrastenie#38</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(79,0,15,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#79</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>15</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (140,0,11,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#140</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>11</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(102,0,10,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#102</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (58,0,16,"UZrastenie",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZrastenie#58</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>16</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,3,0) Brush(15,7585792,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2077,10 +2851,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,16777215) Brush (17,11556864,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2107,10 +2878,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,4,0) Brush(15,7585792,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2143,10 +2911,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,1,16777215) Brush(17,11556864,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2173,10 +2938,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,3,0) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2193,10 +2955,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,3,0) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2213,10 +2972,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,3,0) Brush (15,7585792,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2249,10 +3005,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,4,0) Brush (16,10157824,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2285,10 +3038,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,4,0) Brush (15,7585792,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2321,10 +3071,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,4,0) Brush(16,10157824,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2357,10 +3104,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,3,10506240) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#a05000</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2377,10 +3121,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -2419,12 +3160,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (119,0,9,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#119</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>9</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -2465,10 +3227,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,49,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -2509,10 +3268,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,7,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#b05800</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2529,10 +3285,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,6,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#b05800</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2547,12 +3300,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (35,0,12,"UZrelief",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://UZrelief#35</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,8388608)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#800000</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2568,10 +3342,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,49,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -2612,10 +3383,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,8388608) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#800000</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2631,10 +3399,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,51,11556864) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -2675,10 +3440,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,7,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#b05800</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2695,10 +3457,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,2,11556864)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#b05800</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -2714,10 +3473,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,10506240) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#a05000</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2733,10 +3489,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(2,2,11556864) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#b05800</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -2752,10 +3505,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,16777215) Brush (64,13658112,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2782,10 +3532,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,1,16777215) Brush(64,13658112,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -2812,10 +3559,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,68,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -2856,10 +3600,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,65,15774720)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
                        <Stroke>
                          <GraphicStroke>
                            <Graphic>
@@ -2934,10 +3675,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,7,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -2954,10 +3692,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(2,2,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -2973,10 +3708,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (15,80,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">8</CssParameter>
@@ -3008,10 +3740,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,65,15774720) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
                        <Stroke>
                          <GraphicStroke>
                            <Graphic>
@@ -3084,12 +3813,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (235,0,18,"Sevzapgeoinform",1,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#235</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,46,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -3113,10 +3863,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3132,10 +3879,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,63,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -3216,10 +3960,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,73,15774720)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f0b400</CssParameter>
               <CssParameter name="stroke-width">4</CssParameter>
@@ -3250,10 +3991,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,63,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -3332,12 +4070,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(172,16711935,18,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#172</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff00ff</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,88,15774720) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -3374,10 +4133,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3391,12 +4147,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (172,16711935,18,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#172</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#ff00ff</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,79,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
@@ -3428,10 +4205,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,51,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -3472,10 +4246,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(15,80,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">8</CssParameter>
@@ -3507,10 +4278,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,79,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
@@ -3542,10 +4310,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,2,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -3561,10 +4326,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,66,14708736)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#e07000</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -3659,10 +4421,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,9,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3679,10 +4438,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,82,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">10</CssParameter>
@@ -3707,10 +4463,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,7,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3727,10 +4480,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,73,15774720) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f0b400</CssParameter>
               <CssParameter name="stroke-width">4</CssParameter>
@@ -3761,10 +4511,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(15,7,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">0.5</CssParameter>
@@ -3779,12 +4526,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(235,0,18,"Sevzapgeoinform",1,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#235</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (15,7,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">0.5</CssParameter>
@@ -3801,10 +4569,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,9,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-        <LineSymbolizer>
+        </ogc:Filter>        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3821,10 +4586,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,88,15774720)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -3861,10 +4623,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,68,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
     <Graphic>
@@ -3903,12 +4662,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(235,0,18,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#235</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>18</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,26,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -3947,12 +4727,129 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(52,0,25,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#52</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>25</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (52,0,25,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#52</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>25</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (112,0,9,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#112</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>9</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(112,0,9,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#112</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>9</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (52,0,10,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#52</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -3969,10 +4866,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,1,16777215) Brush (15,7585792,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
- <PolygonSymbolizer>
+        </ogc:Filter> <PolygonSymbolizer>
   <Fill>
 	<CssParameter name="fill">#ffffff</CssParameter>
   </Fill>
@@ -4000,10 +4894,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,63,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -4082,12 +4973,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(190,0,10,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#190</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,63,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -4158,6 +5070,30 @@
     </Rotation>
   </Graphic>
 </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (190,0,10,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#190</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
 
@@ -4169,10 +5105,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,65,0) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
                        <Stroke>
                          <GraphicStroke>
                            <Graphic>
@@ -4248,10 +5181,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,88,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -4288,10 +5218,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,85,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#ffffff</CssParameter>
     <CssParameter name="stroke-width">12</CssParameter>
@@ -4314,10 +5241,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,63,16750640)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -4397,12 +5321,33 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (191,0,10,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#191</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,63,16750640) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -4473,6 +5418,30 @@
     </Rotation>
   </Graphic>
 </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (190,0,9,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#190</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>9</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
 </Rule>
 </FeatureTypeStyle>
 
@@ -4484,10 +5453,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(20,2,0) Brush(2,16750640,13697023) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff9830</CssParameter>
             </Fill>
@@ -4507,10 +5473,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (1,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -4526,10 +5489,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,65,0)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
                        <Stroke>
                          <GraphicStroke>
                            <Graphic>
@@ -4604,10 +5564,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(1,0,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-<LineSymbolizer>
+        </ogc:Filter><LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">#0</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
@@ -4623,10 +5580,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(2,16777215,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffffff</CssParameter>
             </Fill>
@@ -4646,10 +5600,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,1,0) Brush (2,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0</CssParameter>
             </Fill>
@@ -4663,12 +5614,57 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol(191,0,10,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#191</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>10</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:Literal>&lt;MI_STYLE&gt;Symbol (190,0,12,"Sevzapgeoinform",0,*)&lt;/MI_STYLE&gt;</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Filter>          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://Sevzapgeoinform#190</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#0</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>12</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>
+</Rule>
+</FeatureTypeStyle>
+<FeatureTypeStyle>
+<Rule>
+
+        <ogc:Filter>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,2,0) Brush (2,12632256,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c0c0c0</CssParameter>
             </Fill>
@@ -4688,10 +5684,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen(1,2,0) Brush(2,12632256,16777215) &lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#c0c0c0</CssParameter>
             </Fill>
@@ -4711,10 +5704,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (1,88,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <LineSymbolizer>
+        </ogc:Filter>          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
@@ -4751,10 +5741,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (2,1,16777215) Brush (2,0,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#0</CssParameter>
             </Fill>
@@ -4769,10 +5756,7 @@
             <ogc:PropertyName>style</ogc:PropertyName>
             <ogc:Literal>&lt;MI_STYLE&gt;Pen (20,2,0) Brush (2,16750640,13697023)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>
-<MinScaleDenominator>34124</MinScaleDenominator>
-<MaxScaleDenominator>2183916</MaxScaleDenominator>
-          <PolygonSymbolizer>
+        </ogc:Filter>          <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff9830</CssParameter>
             </Fill>

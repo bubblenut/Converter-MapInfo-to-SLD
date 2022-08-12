@@ -12,54 +12,6 @@ def splitLine(line):
     return res
 
 
-def convertSymbolV3(line, key):
-    symdict = dictionary.symbolDictV3
-
-    symattr = line.split()
-    pattern = int(symattr[1])
-    color = re.sub('0x', '', '#'+str(hex(int(symattr[2].replace(")", "")))))
-    size = symattr[3]
-
-    res = '<FeatureTypeStyle>'  + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
-
-    for elem in symdict:
-        if elem == 'pattern':
-            elem = pattern
-        if elem == 'color':
-            elem = color
-        if elem == 'size':
-            elem = size
-        res += elem
-
-    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
-
-
-def convertSymbolRaster(line, key):
-    symdict = dictionary.symbolDictRaster
-
-    symattr = line.split()
-    filename = int(symattr[1])
-    color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
-    size = symattr[3]
-    customstyle = symattr[4]
-
-    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
-
-    for elem in symdict:
-        if elem == 'filename':
-            elem = filename
-        if elem == 'color':
-            elem = color
-        if elem == 'size':
-            elem = size
-        #разобраться что за хрень этот кастом стайл
-        if elem == 'customstyle':
-            elem = customstyle
-        res += elem
-
-    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
-
-
 def convertSymbolTTF(line, key):
     symdict = dictionary.symbolDictTTF
 
@@ -67,7 +19,7 @@ def convertSymbolTTF(line, key):
     shape = int(symattr[1])
     color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
     size = symattr[3]
-    fontname = symattr[4]
+    fontname = symattr[4].strip("\"")
     fontstyle = symattr[5]
 
 
@@ -84,7 +36,7 @@ def convertSymbolTTF(line, key):
             elem = fontname
         if elem == 'fontstyle':
             elem = fontstyle
-        res += elem
+        res += str(elem)
 
     return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
@@ -158,7 +110,11 @@ def convertPen(line, key):
 
 
 def convertLine(line, key):
-  if len(line) == 2:
-    return convertBrush(line, key)
-  else:
-    return convertPen(line, key)
+    print(line)
+    if len(line) == 2:
+        return convertBrush(line, key)
+    else:
+        if (line[0] == 'P'):
+            return convertPen(line, key)
+        else:
+            return convertSymbolTTF(line, key)

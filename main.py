@@ -3,7 +3,7 @@ import dictionary
 import logger
 
 # name = "m_w"
-name = input('Input NFileName')
+name = input('Input Map Name: ')
 input = name + "_input.txt"
 keys = name + "_keys.txt"
 errors = name + "_errors.txt"

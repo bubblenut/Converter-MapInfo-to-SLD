@@ -1990,6 +1990,17 @@ brushPattern = {
     '71': 61
 }
 
-symbolDictV3 = []
-symbolDictRaster = []
-symbolDictTTF = []
+symbolDictTTF = ['''          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://''', 'fontname', '#', 'shape', '''</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">''', 'color', '''</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>''', 'size', '''</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>''']
