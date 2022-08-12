@@ -1,7 +1,8 @@
 import re
 import dictionary
 
-denominator = '\n<MinScaleDenominator>34124</MinScaleDenominator>\n' + '<MaxScaleDenominator>2183916</MaxScaleDenominator>\n'
+#denominator = '\n<MinScaleDenominator>534</MinScaleDenominator>\n' + '<MaxScaleDenominator>2183916</MaxScaleDenominator>\n'
+denominator = ''
 
 def splitLine(line):
     if 'Pen' in line and 'Brush' in line:
@@ -9,6 +10,35 @@ def splitLine(line):
     else:
         res = re.sub(',|\(|\)\n', '', line)
     return res
+
+
+def convertSymbolTTF(line, key):
+    symdict = dictionary.symbolDictTTF
+
+    symattr = line.split()
+    shape = int(symattr[1])
+    color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
+    size = symattr[3]
+    fontname = symattr[4].strip("\"")
+    fontstyle = symattr[5]
+
+
+    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
+
+    for elem in symdict:
+        if elem == 'shape':
+            elem = shape
+        if elem == 'color':
+            elem = color
+        if elem == 'size':
+            elem = size
+        if elem == 'fontname':
+            elem = fontname
+        if elem == 'fontstyle':
+            elem = fontstyle
+        res += str(elem)
+
+    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
 def convertBrush(line, key):
@@ -80,7 +110,11 @@ def convertPen(line, key):
 
 
 def convertLine(line, key):
-  if len(line) == 2:
-    return convertBrush(line, key)
-  else:
-    return convertPen(line, key)
+    print(line)
+    if len(line) == 2:
+        return convertBrush(line, key)
+    else:
+        if (line[0] == 'P'):
+            return convertPen(line, key)
+        else:
+            return convertSymbolTTF(line, key)

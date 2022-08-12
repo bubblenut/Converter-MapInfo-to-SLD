@@ -1690,29 +1690,26 @@ penDict = {
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
           </LineSymbolizer>'''],
-        81: [ '''<LineSymbolizer>
-  <Stroke>
-    <CssParameter name="stroke">''', 'color', '''</CssParameter>
-    <CssParameter name="stroke-width">1</CssParameter>
-    <CssParameter name="stroke-dasharray">10 10</CssParameter>
-  </Stroke>
-</LineSymbolizer>''',
-'''       <LineSymbolizer>
+        81:['''          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#0</CssParameter>
+              <CssParameter name="stroke-width">0.3</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
                   <Mark>
                     <WellKnownName>ttf://Line_Styles#106</WellKnownName>
-                    <Fill>
-                      <CssParameter name="fill">''',
-                'color',
-                '''</CssParameter>
-                    </Fill>
+                    <Stroke>
+                      <CssParameter name="stroke">#0</CssParameter>
+                    </Stroke>
                   </Mark>
+                  <Size>20</Size>
                 </Graphic>
               </GraphicStroke>
-              <CssParameter name="stroke-dasharray">10 10</CssParameter>
-              <CssParameter name="stroke-dashoffset">10</CssParameter>
+              <CssParameter name="stroke-dasharray">10 60</CssParameter>
             </Stroke>
           </LineSymbolizer>'''],
            82: ['''<LineSymbolizer>
@@ -1833,20 +1830,43 @@ penDict = {
     </Mark>
   </Graphic>
 </PointSymbolizer>'''],
-        88: [ '''<LineSymbolizer>
-  <Stroke>
-    <CssParameter name="stroke">''', 'color', '''</CssParameter>
-    <CssParameter name="stroke-width">3.5</CssParameter>
-    <CssParameter name="stroke-dasharray">10 10</CssParameter>
-  </Stroke>
-</LineSymbolizer>''',
-'''<LineSymbolizer>
-  <Stroke>
-    <CssParameter name="stroke">''', '#000000', '''</CssParameter>
-    <CssParameter name="stroke-width">10</CssParameter>
-    <CssParameter name="stroke-dasharray">10 10</CssParameter>
-  </Stroke>
-</LineSymbolizer>'''],
+        88: ['''          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#107</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+
+                '#000000',
+
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>''',
+
+                '''          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#94</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+
+                'color',
+
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>'''],
         89: [ '''<LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
@@ -1969,3 +1989,18 @@ brushPattern = {
     '70': 60,
     '71': 61
 }
+
+symbolDictTTF = ['''          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>ttf://''', 'fontname', '#', 'shape', '''</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">''', 'color', '''</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>''', 'size', '''</Size>
+                            <Rotation>
+                <ogc:PropertyName>g_rotation</ogc:PropertyName>
+              </Rotation>
+            </Graphic>
+          </PointSymbolizer>''']
