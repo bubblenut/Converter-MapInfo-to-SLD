@@ -18,7 +18,6 @@ with open(input, 'r', encoding='utf-8') as fin:
                 i = 0
                 for string in fin:
                     i += 1
-                    print(i)
                     key = fkey.readline().strip('\n')
                     clearline = MapInfoToSLD.splitLine(string)
                     iscor = logger.isCorrect(i, string.strip('\(|\)|\,'))
@@ -30,4 +29,4 @@ with open(input, 'r', encoding='utf-8') as fin:
 
                 fout.write(dictionary.styleFooting + '\n')
 
-print('Convertation complete')
+print('Конвертация завершена')
