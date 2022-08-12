@@ -3,11 +3,11 @@ import dictionary
 import logger
 
 # name = "m_w"
-name = input('Input Map Name: ')
-input = name + "_input.txt"
-keys = name + "_keys.txt"
-errors = name + "_errors.txt"
-style = name + "_Style.txt"
+name = input('Доступные имена:\n\tm_w\n\tm_r\n\tm_200\n\tm_25\n\tm_1k\n\tm_1\n\nВведите имя карты: ')
+input = 'inputs/' + name + "_input.txt"
+keys = 'inputs/' + name + "_keys.txt"
+errors = 'errors/' + name + "_errors.txt"
+style = 'styles/' + name + "_Style.txt"
 
 with open(input, 'r', encoding='utf-8') as fin:
     with open(keys, 'r', encoding='utf-8') as fkey:
