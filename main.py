@@ -3,13 +3,13 @@ import dictionary
 import logger
 
 # name = "m_w"
-name = input('Input Map Name: ')
-input = name + "_input.txt"
-keys = name + "_keys.txt"
-errors = name + "_errors.txt"
-style = name + "_Style.txt"
+name = input('Доступные имена:\n\tm_w\n\tm_r\n\tm_200\n\tm_25\n\tm_1k\n\tm_1\n\nВведите имя карты: ')
+inp = 'inputs/' + name + "_input.txt"
+keys = 'inputs/' + name + "_keys.txt"
+errors = 'errors/' + name + "_errors.txt"
+style = 'styles/' + name + "_Style.txt"
 
-with open(input, 'r', encoding='utf-8') as fin:
+with open(inp, 'r', encoding='utf-8') as fin:
     with open(keys, 'r', encoding='utf-8') as fkey:
         with open(errors, 'w', encoding='utf-8') as ferr:
             with open(style, 'w', encoding='utf-8') as fout:
@@ -18,7 +18,6 @@ with open(input, 'r', encoding='utf-8') as fin:
                 i = 0
                 for string in fin:
                     i += 1
-                    print(i)
                     key = fkey.readline().strip('\n')
                     clearline = MapInfoToSLD.splitLine(string)
                     iscor = logger.isCorrect(i, string.strip('\(|\)|\,'))
@@ -30,4 +29,5 @@ with open(input, 'r', encoding='utf-8') as fin:
 
                 fout.write(dictionary.styleFooting + '\n')
 
-print('Convertation complete')
+print('Конвертация завершена\n\n')
+input("Нажмите Enter")

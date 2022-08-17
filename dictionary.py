@@ -18,16 +18,16 @@ styleFooting = '''</UserStyle>
 filterHeading = '''
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>style</ogc:PropertyName>
+            <ogc:PropertyName>g_style</ogc:PropertyName>
             <ogc:Literal>'''
 
 filterFooting = '''</ogc:Literal>
           </ogc:PropertyIsEqualTo>
-        </ogc:Filter>'''
+        </ogc:Filter>\n'''
 
 
 penDict = {
-            2: ['''<LineSymbolizer>
+            2: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
                'color',

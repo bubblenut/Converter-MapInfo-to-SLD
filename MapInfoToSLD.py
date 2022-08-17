@@ -110,7 +110,6 @@ def convertPen(line, key):
 
 
 def convertLine(line, key):
-    print(line)
     if len(line) == 2:
         return convertBrush(line, key)
     else:
