@@ -4,12 +4,12 @@ import logger
 
 # name = "m_w"
 name = input('Доступные имена:\n\tm_w\n\tm_r\n\tm_200\n\tm_25\n\tm_1k\n\tm_1\n\nВведите имя карты: ')
-input = 'inputs/' + name + "_input.txt"
+inp = 'inputs/' + name + "_input.txt"
 keys = 'inputs/' + name + "_keys.txt"
 errors = 'errors/' + name + "_errors.txt"
 style = 'styles/' + name + "_Style.txt"
 
-with open(input, 'r', encoding='utf-8') as fin:
+with open(inp, 'r', encoding='utf-8') as fin:
     with open(keys, 'r', encoding='utf-8') as fkey:
         with open(errors, 'w', encoding='utf-8') as ferr:
             with open(style, 'w', encoding='utf-8') as fout:
@@ -29,4 +29,5 @@ with open(input, 'r', encoding='utf-8') as fin:
 
                 fout.write(dictionary.styleFooting + '\n')
 
-print('Конвертация завершена')
+print('Конвертация завершена\n\n')
+input("Нажмите Enter")
