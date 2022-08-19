@@ -3,72 +3,77 @@ import dictionary
 import re
 
 
-def isCorrect(num, line)->(bool, str):
+def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
 
-    linearr = re.sub(',|\(|\n|\)', '', line).split()
-    errortext  =  'В строке '  + str(num) + ' \' ' + line + '\': '
+    key = re.sub("&lt;", "<", key)
+    key = re.sub("&gt;", ">", key)
+
+    stylearr = style.split(",")
+
+    errortext  =  'В строке инпута '  + str(num) + ' :\nТаблицы ' + layer + ':\nПо ключу ' + key + ':\n'
     iscorrect = True
 
-    if len(linearr) < 4 or len(linearr) > 8:
+    if len(stylearr) < 4 or len(stylearr) > 8:
         iscorrect = False
         errortext += 'Невалидная длина строки\n\n'
         return iscorrect, errortext
-    elif len(linearr) == 8:
-        if linearr[0] != 'Pen':
+    elif len(stylearr) == 8:
+        if stylearr[0] != 'Pen':
             iscorrect = False
-            errortext += 'аттрибут \'Pen\' не найден, вместо него стоит ' + linearr[0] + '; '
-        if int(linearr[1]) > 1000:
+            errortext += 'аттрибут \'Pen\' не найден, вместо него стоит ' + stylearr[0] + '; '
+        if int(stylearr[1]) > 1000:
             iscorrect = False
-            errortext += 'аттрибут ширины Pen = ' + linearr [1] + '. Слишком широко;'
-        if  int(linearr[2]) not in dictionary.penDict:
-            if int(linearr[2]) != 1:
+            errortext += 'аттрибут ширины Pen = ' + stylearr [1] + '. Слишком широко;'
+        if  int(stylearr[2]) not in dictionary.penDict:
+            if int(stylearr[2]) != 1:
                 iscorrect = False
-                errortext += 'аттрибут шаблона линии содержит невалидное значение ' + linearr[2] + '; '
-        if int(linearr[3]) < 0  or int(linearr[3]) > 16777215:
+                errortext += 'аттрибут шаблона линии содержит невалидное значение ' + stylearr[2] + '; '
+        if int(stylearr[3]) < 0  or int(stylearr[3]) > 16777215:
             iscorrect = False
-            errortext += 'аттрибут цвета обводки содержит невалидное значение ' + linearr[3]
-        if linearr[4] != 'Brush':
+            errortext += 'аттрибут цвета обводки содержит невалидное значение ' + stylearr[3]
+        if stylearr[4] != 'Brush':
             iscorrect = False
-            errortext += 'аттрибут \'Brush\' не найден, вместо него стоит ' + linearr[0] + '; '
-        if linearr[5] not in dictionary.brushPattern:
+            errortext += 'аттрибут \'Brush\' не найден, вместо него стоит ' + stylearr[0] + '; '
+        if stylearr[5] not in dictionary.brushPattern:
             iscorrect = False
-            errortext += 'аттрибут шаблона заливки содержит невалидное значение ' + linearr[5] + '; '
-        if int(linearr[6]) < 0  or int(linearr[6]) > 16777215:
+            errortext += 'аттрибут шаблона заливки содержит невалидное значение ' + stylearr[5] + '; '
+        if int(stylearr[6]) < 0  or int(stylearr[6]) > 16777215:
             iscorrect = False
-            errortext += 'аттрибут цвета заливки содержит невалидное значение ' + linearr[3]
-        if re.search('\D', linearr[7]) != None or int(linearr[7]) < 0  or int(linearr[7]) > 16777215:
+            errortext += 'аттрибут цвета заливки содержит невалидное значение ' + stylearr[3]
+        #if re.search('\D', stylearr[7]) != None or int(stylearr[7]) < 0  or int(stylearr[7]) > 16777215:
+        if int(stylearr[7]) < 0 or int(stylearr[7]) > 16777215:
             iscorrect = False
-            errortext += 'аттрибут цвета фона содержит невалидное значение ' + linearr[3]
-    elif len(linearr) == 7:
-        if linearr[0] != 'Symbol':
+            errortext += 'аттрибут цвета фона содержит невалидное значение ' + stylearr[7]
+    elif len(stylearr) == 7:
+        if stylearr[0] != 'Symbol':
             iscorrect = False
-            errortext += 'аттрибут \'Symbol\' не найден, вместо него стоит ' + linearr[0] + '; '
-        if int(linearr[1]) < 32:
+            errortext += 'аттрибут \'Symbol\' не найден, вместо него стоит ' + stylearr[0] + '; '
+        if int(stylearr[1]) < 32:
             iscorrect = False
-            errortext + 'аттрибут шаблона символа ttf содержит невалидное значение ' + linearr[1] + ' Необходимо значение 32 или больше; '
-        if int(linearr[2]) < 0  or int(linearr[2]) > 16777215:
+            errortext + 'аттрибут шаблона символа ttf содержит невалидное значение ' + stylearr[1] + ' Необходимо значение 32 или больше; '
+        if int(stylearr[2]) < 0  or int(stylearr[2]) > 16777215:
             iscorrect = False
-            errortext += 'аттрибут цвета содержит невалидное значение ' + linearr[2]
-        if int(linearr[3]) < 1  or int(linearr[3]) > 48:
+            errortext += 'аттрибут цвета содержит невалидное значение ' + stylearr[2]
+        if int(stylearr[3]) < 1  or int(stylearr[3]) > 48:
             iscorrect =  False
-            errortext += 'невалидный размер ' + linearr[3]
+            errortext += 'невалидный размер символа ' + stylearr[3]
         #не проверяю валидность имени шрифта
         #не проверяю валидность стиля шрифта
         #не проверяю валидность поворота
-    elif len(linearr) == 4:
-        if linearr[0] != 'Pen':
+    elif len(stylearr) == 4:
+        if stylearr[0] != 'Pen':
             iscorrect = False
-            errortext += 'аттрибут \'Pen\' не найден, вместо него стоит ' + linearr[0] + '; '
-        if int(linearr[1]) > 1000:
+            errortext += 'аттрибут \'Pen\' не найден, вместо него стоит ' + stylearr[0] + '; '
+        if int(stylearr[1]) > 1000:
             iscorrect = False
-            errortext += 'аттрибут ширины = ' + linearr [1] + '. Слишком широко;'
-        if int(linearr[2]) not in dictionary.penDict:
+            errortext += 'аттрибут ширины = ' + stylearr [1] + '. Слишком широко;'
+        if int(stylearr[2]) not in dictionary.penDict:
             iscorrect = False
-            errortext += 'аттрибут шаблона линии содержит невалидное значение ' + linearr[2] + '; '
-        if int(linearr[3]) < 0  or int(linearr[3]) > 16777215:
+            errortext += 'аттрибут шаблона линии содержит невалидное значение ' + stylearr[2] + ' (его пока нет в словаре); '
+        if int(stylearr[3]) < 0  or int(stylearr[3]) > 16777215:
             iscorrect = False
-            errortext += 'аттрибут цвета содержит невалидное знаение ' + linearr[3]
-    elif linearr[0] == 'Symbol' and (len(linearr) == 4 or len(linearr) == 5):
+            errortext += 'аттрибут цвета содержит невалидное знаение ' + stylearr[3]
+    elif stylearr[0] == 'Symbol' and (len(stylearr) == 4 or len(stylearr) == 5):
         iscorrect = False
         errortext += 'строка содержит тип неподходящий для конвертации тип Symbol'
     else:
@@ -80,8 +85,8 @@ def isCorrect(num, line)->(bool, str):
 
 
     #Проверка на количество аттрибутов в целом
-    # if len(linearr) != 8 and len(linearr) != 4:
-    #     if len(linearr) != 0 and linearr[0] == 'Symbol':
+    # if len(stylearr) != 8 and len(stylearr) != 4:
+    #     if len(stylearr) != 0 and stylearr[0] == 'Symbol':
     #         iscorrect = False
     #         errortext += 'строка содержит Symbol\n\n'
     #         return iscorrect, errortext

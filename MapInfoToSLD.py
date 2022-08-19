@@ -4,24 +4,15 @@ import dictionary
 #denominator = '\n<MinScaleDenominator>534</MinScaleDenominator>\n' + '<MaxScaleDenominator>2183916</MaxScaleDenominator>\n'
 denominator = ''
 
-def splitLine(line):
-    if 'Pen' in line and 'Brush' in line:
-        res = re.split("\)\s", re.sub(',|\(|\n', '', line))
-    else:
-        res = re.sub(',|\(|\)\n', '', line)
-    return res
-
-
-def convertSymbolTTF(line, key):
+def convertSymbolTTF(line: str, key: str):
     symdict = dictionary.symbolDictTTF
 
-    symattr = line.split()
+    symattr = line.split(",")
     shape = int(symattr[1])
     color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
     size = symattr[3]
     fontname = symattr[4].strip("\"")
     fontstyle = symattr[5]
-
 
     res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
 
@@ -41,26 +32,25 @@ def convertSymbolTTF(line, key):
     return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
-def convertBrush(line, key):
-  penDict = dictionary.penDict
+def convertBrush(line: str, key: str):
+    penDict = dictionary.penDict
 
-  if len(line) == 2:
-    penattr = line[0].split()
-    widthPen = penattr[1]
-    patternPen = int(penattr[2])
-    colorPen = re.sub('0x', '', '#'+str(hex(int(penattr[3].replace(")", "")))))
+    params = line.split(",")
 
-    brushattr = line[1].split()
-    patternBrush = brushattr[1]
-    colorMain = re.sub('0x', '', '#'+str(hex(int(brushattr[2].replace(')', '')))))
-    colorBg = re.sub('0x', '', '#'+str(hex(int(brushattr[3].replace(')', '')))))
+    widthPen = params[1]
+    patternPen = int(params[2])
+    colorPen = re.sub('0x', '', '#'+str(hex(int(params[3].replace(")", "")))))
+    patternBrush = params[5]
+    colorMain = re.sub('0x', '', '#'+str(hex(int(params[6].replace(')', '')))))
+    colorBg = re.sub('0x', '', '#'+str(hex(int(params[7].replace(')', '')))))
+
 
     if int(patternPen) == 1 and int(patternBrush) == 1:
         return '\n'
 
     res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting  + denominator
 
-    if (int(patternBrush) != 1):
+    if int(patternBrush) != 1 and int(patternBrush) != 0:
         if (int(patternBrush) == 2):
             for elem  in dictionary.brushDictSimple:
                 if elem == 'colorMain':
@@ -82,16 +72,16 @@ def convertBrush(line, key):
                 elem = colorPen
             res += elem
 
-  return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
+    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
-def convertPen(line, key):
+def convertPen(line: str, key: str):
     dict = dictionary.penDict
 
-    penattr = line.split()
-    width = penattr[1]
-    pattern = int(penattr[2])
-    color = re.sub('0x', '', '#'+str(hex(int(penattr[3].replace(")", "")))))
+    params = line.split(",")
+    width = params[1]
+    pattern = int(params[2])
+    color = re.sub('0x', '', '#'+str(hex(int(params[3].replace(")", "")))))
 
     # конвертация толщины линий больше 7 из точек в пиксели
     if int(width) > 7:
@@ -109,11 +99,11 @@ def convertPen(line, key):
     return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
-def convertLine(line, key):
-    if len(line) == 2:
-        return convertBrush(line, key)
+def convertLine(style: str, key: str) -> str:
+    stylearr = style.split(",")
+    if len(stylearr) == 8:
+        return convertBrush(style, key)
+    elif len(stylearr) == 7:
+        return convertSymbolTTF(style, key)
     else:
-        if (line[0] == 'P'):
-            return convertPen(line, key)
-        else:
-            return convertSymbolTTF(line, key)
+        return convertPen(style, key)
