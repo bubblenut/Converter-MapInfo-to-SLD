@@ -26,7 +26,16 @@ filterFooting = '''</ogc:Literal>
         </ogc:Filter>\n'''
 
 
-penDict = {
+penDict = {0: ['''        <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+               'color',
+               '''</CssParameter>
+            <CssParameter name="stroke-width">''',
+               'width',
+               '''</CssParameter>
+          </Stroke>
+        </LineSymbolizer>'''],
             2: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
