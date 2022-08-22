@@ -1,5 +1,0 @@
-&lt;MI_STYLE&gt;Symbol(34,10526975,6)&lt;/MI_STYLE&gt;
-&lt;MI_STYLE&gt;Symbol(34,10526975,8)&lt;/MI_STYLE&gt;
-&lt;MI_STYLE&gt;Pen(1,2,13027829) Brush(2,12179455,16777215)&lt;/MI_STYLE&gt;
-&lt;MI_STYLE&gt;Symbol(34,15848343,10)&lt;/MI_STYLE&gt;
-&lt;MI_STYLE&gt;Pen(1,2,10658435) Brush(2,12829635,16777215)&lt;/MI_STYLE&gt;
