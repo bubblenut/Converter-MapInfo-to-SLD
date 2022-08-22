@@ -1903,7 +1903,7 @@ brushDictSimple = ['''          <PolygonSymbolizer>
                    'colorMain',
                    '''</CssParameter>
             </Fill>
-          </PolygonSymbolizer>''']
+          </PolygonSymbolizer>\n''']
 
 
 brushDict = [''' <PolygonSymbolizer>
@@ -1925,7 +1925,7 @@ brushDict = [''' <PolygonSymbolizer>
     </Graphic>
    </GraphicFill>
   </Fill>
-</PolygonSymbolizer>''']
+</PolygonSymbolizer>\n''']
 
 
 brushPattern = {
@@ -2012,4 +2012,19 @@ symbolDictTTF = ['''          <PointSymbolizer>
                 <ogc:PropertyName>g_rotation</ogc:PropertyName>
               </Rotation>
             </Graphic>
-          </PointSymbolizer>''']
+          </PointSymbolizer>\n''']
+
+xmlDict = ['''<style>
+  <id>StyleInfoImpl--''','layer','''_Style_info</id>
+  <name>''','layer','''</name>
+  <workspace>
+    <id>WorkspaceInfoImpl-38b00827:181428e4c9d:-7ffc</id>
+  </workspace>
+  <format>sld</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
+  <filename>''','layer','''_Style.sld</filename>
+  <dateCreated>2022-08-18 13:00:35.322 UTC</dateCreated>
+  <dateModified>2022-08-18 13:11:03.167 UTC</dateModified>
+</style>''']

@@ -10,7 +10,7 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
 
     stylearr = style.split(",")
 
-    errortext  =  'В строке инпута '  + str(num) + ' :\nТаблицы ' + layer + ':\nПо ключу ' + key + ':\n'
+    errortext  =  str(num) + ' строка input.txt' + ' :\nВ таблице ' + layer + ':\nпо ключу ' + key + ':\n'
     iscorrect = True
 
     if len(stylearr) < 4 or len(stylearr) > 8:
@@ -60,6 +60,10 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
         #не проверяю валидность имени шрифта
         #не проверяю валидность стиля шрифта
         #не проверяю валидность поворота
+    elif stylearr[0] == 'Symbol' and (len(stylearr) == 4 or len(stylearr) == 5):
+        iscorrect = False
+        errortext += 'строка содержит тип неподходящий для конвертации тип Symbol'
+        return iscorrect, errortext
     elif len(stylearr) == 4:
         if stylearr[0] != 'Pen':
             iscorrect = False
@@ -73,23 +77,9 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
         if int(stylearr[3]) < 0  or int(stylearr[3]) > 16777215:
             iscorrect = False
             errortext += 'аттрибут цвета содержит невалидное знаение ' + stylearr[3]
-    elif stylearr[0] == 'Symbol' and (len(stylearr) == 4 or len(stylearr) == 5):
-        iscorrect = False
-        errortext += 'строка содержит тип неподходящий для конвертации тип Symbol'
     else:
         iscorrect = False
         errortext += 'невалидное количество аттрибутов'
 
     errortext += '\n\n'
     return iscorrect, errortext
-
-
-    #Проверка на количество аттрибутов в целом
-    # if len(stylearr) != 8 and len(stylearr) != 4:
-    #     if len(stylearr) != 0 and stylearr[0] == 'Symbol':
-    #         iscorrect = False
-    #         errortext += 'строка содержит Symbol\n\n'
-    #         return iscorrect, errortext
-    #     iscorrect = False
-    #     errortext += 'введены не все аттрибуты\n\n'
-    #     return iscorrect, errortext

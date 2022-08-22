@@ -99,7 +99,7 @@ def convertPen(line: str, key: str):
     return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
 
 
-def convertLine(style: str, key: str) -> str:
+def convertStyle(style: str, key: str) -> str:
     stylearr = style.split(",")
     if len(stylearr) == 8:
         return convertBrush(style, key)

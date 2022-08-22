@@ -1,7 +1,7 @@
 import re
 
 def extractLayer(line: str) -> str:
-    layer = line.split()[0]
+    layer = line.split("\t")[0]
     return layer
 
 def extractKey(line: str) -> str:
