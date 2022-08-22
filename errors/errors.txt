@@ -1,15 +1,15 @@
 1 строка input.txt :
 В таблице m_w_mir_goroda_g:
 по ключу m_w_mir_goroda_g_<MI_STYLE>Symbol(34,10526975,6)</MI_STYLE>:
-строка содержит тип неподходящий для конвертации тип Symbol
+строка содержит тип неподходящий для конвертации Symbol
 
 2 строка input.txt :
 В таблице m_w_mir_goroda_osnovnye_g:
 по ключу m_w_mir_goroda_osnovnye_g_<MI_STYLE>Symbol(34,10526975,8)</MI_STYLE>:
-строка содержит тип неподходящий для конвертации тип Symbol
+строка содержит тип неподходящий для конвертации Symbol
 
 4 строка input.txt :
 В таблице m_w_mir_stolitcy_g:
 по ключу m_w_mir_stolitcy_g_<MI_STYLE>Symbol(34,15848343,10)</MI_STYLE>:
-строка содержит тип неподходящий для конвертации тип Symbol
+строка содержит тип неподходящий для конвертации Symbol
 
