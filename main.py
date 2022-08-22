@@ -4,9 +4,14 @@ import extractor
 import logger
 import xmlFiller
 
-
 inputPath = 'inputs/input.txt'
 errorsPath = 'errors/errors.txt'
+
+
+last: str
+with open(inputPath, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+    last = lines[-1]
 
 #input("Нажмите ентер чтобы начать конвертацию\n")
 
@@ -21,10 +26,7 @@ with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encodi
         layer: str = extractor.extractLayer(line)
         key: str = extractor.extractKey(line)
         style: str = extractor.extractStyle(line)
-        # пример слоя, ключа и стиля
-        # layer: m_200_roads_g
-        # key: m_200_roads_g_ & lt;MI_STYLE & gt;Pen(1, 65, 15774720) & lt;/MI_STYLE & gt;
-        # style: Pen,1,65,15774720'
+
         if i == 1:
             layerPrev = layer
         isCorrect: (bool, str) = logger.isCorrect(i,style, key, layer)
@@ -34,7 +36,7 @@ with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encodi
                 with open('styles/' + layerPrev + "_Style.xml", 'w', encoding='utf-8') as fxml:
                     fxml.write(xmlFiller.createXml(layer))
                 with open('styles/' + layerPrev + "_Style.sld", 'w', encoding='utf-8') as fsld:
-                    fsld.write(dictionary.styleHeading + '\n')
+                    fsld.write(dictionary.styleHeading + '\n\n\n')
                     fsld.write(fullStyle)
                     fsld.write(dictionary.styleFooting + '\n')
                 fullStyle = ''
@@ -43,9 +45,33 @@ with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encodi
             else:
                 fullStyle += MapInfoToSLD.convertStyle(style, key)
         else:
-            flog.write(isCorrect[1] + '\n\n')
-            continue
+            if layer != layerPrev:
+                with open('styles/' + layerPrev + "_Style.xml", 'w', encoding='utf-8') as fxml:
+                    fxml.write(xmlFiller.createXml(layer))
+                with open('styles/' + layerPrev + "_Style.sld", 'w', encoding='utf-8') as fsld:
+                    fsld.write(dictionary.styleHeading + '\n\n\n')
+                    fsld.write(fullStyle)
+                    fsld.write(dictionary.styleFooting + '\n')
+                fullStyle = ''
+                flog.write(isCorrect[1] + '\n\n')
+                layerPrev = layer
+            else:
+                flog.write(isCorrect[1] + '\n\n')
+
+        if line == last:
+            with open('styles/' + layerPrev + "_Style.xml", 'w', encoding='utf-8') as fxml:
+                fxml.write(xmlFiller.createXml(layer))
+            with open('styles/' + layerPrev + "_Style.sld", 'w', encoding='utf-8') as fsld:
+                fsld.write(dictionary.styleHeading + '\n\n\n')
+                fsld.write(fullStyle)
+                fsld.write(dictionary.styleFooting + '\n')
+
 
 
 print("Конвертация успешно завершена\n")
 #input("Нажмите Enter")
+
+# пример слоя, ключа и стиля
+# layer: m_200_roads_g
+# key: m_200_roads_g_ & lt;MI_STYLE & gt;Pen(1, 65, 15774720) & lt;/MI_STYLE & gt;
+# style: Pen,1,65,15774720'

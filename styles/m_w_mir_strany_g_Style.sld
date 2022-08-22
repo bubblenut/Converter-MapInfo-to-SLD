@@ -16,17 +16,17 @@
         <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>g_style</ogc:PropertyName>
-            <ogc:Literal>m_w_mir_okean_g_&lt;MI_STYLE&gt;Pen(1,2,13027829) Brush(2,12179455,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
+            <ogc:Literal>m_w_mir_strany_g_&lt;MI_STYLE&gt;Pen(1,2,10658435) Brush(2,12829635,16777215)&lt;/MI_STYLE&gt;</ogc:Literal>
           </ogc:PropertyIsEqualTo>
         </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#b9d7ff</CssParameter>
+              <CssParameter name="fill">#c3c3c3</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         <LineSymbolizer>
           <Stroke>
-            <CssParameter name="stroke">#c6c9f5</CssParameter>
+            <CssParameter name="stroke">#a2a283</CssParameter>
             <CssParameter name="stroke-width">1</CssParameter>
           </Stroke>
         </LineSymbolizer>

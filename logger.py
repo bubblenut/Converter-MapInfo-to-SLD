@@ -62,7 +62,7 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
         #не проверяю валидность поворота
     elif stylearr[0] == 'Symbol' and (len(stylearr) == 4 or len(stylearr) == 5):
         iscorrect = False
-        errortext += 'строка содержит тип неподходящий для конвертации тип Symbol'
+        errortext += 'строка содержит тип неподходящий для конвертации Symbol'
         return iscorrect, errortext
     elif len(stylearr) == 4:
         if stylearr[0] != 'Pen':
