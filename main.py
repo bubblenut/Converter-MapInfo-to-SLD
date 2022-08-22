@@ -31,14 +31,15 @@ with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encodi
 
         if isCorrect[0]:
             if layer != layerPrev:
-                with open('styles/' + layer + "_Style.xml", 'w', encoding='utf-8') as fxml:
+                with open('styles/' + layerPrev + "_Style.xml", 'w', encoding='utf-8') as fxml:
                     fxml.write(xmlFiller.createXml(layer))
-                with open('styles/' + layer + "_Style.sld", 'w', encoding='utf-8') as fsld:
+                with open('styles/' + layerPrev + "_Style.sld", 'w', encoding='utf-8') as fsld:
                     fsld.write(dictionary.styleHeading + '\n')
                     fsld.write(fullStyle)
                     fsld.write(dictionary.styleFooting + '\n')
                 fullStyle = ''
                 fullStyle += MapInfoToSLD.convertStyle(style, key)
+                layerPrev = layer
             else:
                 fullStyle += MapInfoToSLD.convertStyle(style, key)
         else:

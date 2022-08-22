@@ -2025,6 +2025,5 @@ xmlDict = ['''<style>
     <version>1.0.0</version>
   </languageVersion>
   <filename>''','layer','''_Style.sld</filename>
-  <dateCreated>2022-08-18 13:00:35.322 UTC</dateCreated>
-  <dateModified>2022-08-18 13:11:03.167 UTC</dateModified>
+  <dateCreated>''','date','''</dateCreated>
 </style>''']
