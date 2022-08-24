@@ -13,12 +13,12 @@ with open(inputPath, 'r', encoding='utf-8') as f:
     lines = f.readlines()
     last = lines[-1]
 
-#input("Нажмите ентер чтобы начать конвертацию\n")
-
+layercount: int = 0
 with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encoding='utf-8') as flog:
     fullStyle: str = ''
     i: int = 0
     layerPrev: str
+    ulayers = set()
 
     for  line in fin:
         i += 1
@@ -26,6 +26,8 @@ with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encodi
         layer: str = extractor.extractLayer(line)
         key: str = extractor.extractKey(line)
         style: str = extractor.extractStyle(line)
+
+        ulayers.add(layer)
 
         if i == 1:
             layerPrev = layer
@@ -66,10 +68,12 @@ with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encodi
                 fsld.write(fullStyle)
                 fsld.write(dictionary.styleFooting + '\n')
 
+        layercount = len(ulayers)
 
 
-print("Конвертация успешно завершена\n")
-#input("Нажмите Enter")
+
+print("Конвертация успешно завершена\n" + "Должно быть " + str(layercount) + " стилей. Если их не столько - ошибка в конвертере")
+input("Нажмите Enter")
 
 # пример слоя, ключа и стиля
 # layer: m_200_roads_g

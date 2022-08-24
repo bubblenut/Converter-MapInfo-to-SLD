@@ -1,15 +1,35 @@
-1 строка input.txt :
-В таблице m_w_mir_goroda_g:
-по ключу m_w_mir_goroda_g_<MI_STYLE>Symbol(34,10526975,6)</MI_STYLE>:
-строка содержит тип неподходящий для конвертации Symbol
-
-2 строка input.txt :
-В таблице m_w_mir_goroda_osnovnye_g:
-по ключу m_w_mir_goroda_osnovnye_g_<MI_STYLE>Symbol(34,10526975,8)</MI_STYLE>:
-строка содержит тип неподходящий для конвертации Symbol
-
 4 строка input.txt :
-В таблице m_w_mir_stolitcy_g:
-по ключу m_w_mir_stolitcy_g_<MI_STYLE>Symbol(34,15848343,10)</MI_STYLE>:
+В таблице m_r_dorogi_jeleznye_stancii_g:
+по ключу <MI_STYLE>Symbol(32,16777215,6)</MI_STYLE>:
+строка содержит тип неподходящий для конвертации Symbol
+
+6 строка input.txt :
+В таблице m_r_gazprom_obsestva_poemg_g:
+по ключу <MI_STYLE>Symbol("GPR.bmp",255,20,0)</MI_STYLE>:
+строка содержит тип неподходящий для конвертации Symbol
+
+12 строка input.txt :
+В таблице m_r_nasel_punkty_goroda_proc_g:
+по ключу <MI_STYLE>Symbol(34,10526975,8)</MI_STYLE>:
+строка содержит тип неподходящий для конвертации Symbol
+
+13 строка input.txt :
+В таблице m_r_nasel_punkty_procie_g:
+по ключу <MI_STYLE>Symbol(34,10526975,6)</MI_STYLE>:
+строка содержит тип неподходящий для конвертации Symbol
+
+17 строка input.txt :
+В таблице m_r_sub_ekty_rf_adm_centry_g:
+по ключу <MI_STYLE>Symbol(34,15848343,8)</MI_STYLE>:
+строка содержит тип неподходящий для конвертации Symbol
+
+19 строка input.txt :
+В таблице m_r_sub_ekty_rf_rayony_adm_c_g:
+по ключу <MI_STYLE>Symbol(34,10526975,8)</MI_STYLE>:
+строка содержит тип неподходящий для конвертации Symbol
+
+20 строка input.txt :
+В таблице m_r_sub_ekty_rf_rayony_adm_c_g:
+по ключу <MI_STYLE>Symbol(34,10526975,6)</MI_STYLE>:
 строка содержит тип неподходящий для конвертации Symbol
 

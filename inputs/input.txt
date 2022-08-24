@@ -1,5 +1,22 @@
-m_w_mir_goroda_g	m_w_mir_goroda_g_<MI_STYLE>Symbol(34,10526975,6)</MI_STYLE>
-m_w_mir_goroda_osnovnye_g	m_w_mir_goroda_osnovnye_g_<MI_STYLE>Symbol(34,10526975,8)</MI_STYLE>
-m_w_mir_okean_g	m_w_mir_okean_g_<MI_STYLE>Pen(1,2,13027829) Brush(2,12179455,16777215)</MI_STYLE>
-m_w_mir_stolitcy_g	m_w_mir_stolitcy_g_<MI_STYLE>Symbol(34,15848343,10)</MI_STYLE>
-m_w_mir_strany_g	m_w_mir_strany_g_<MI_STYLE>Pen(1,2,10658435) Brush(2,12829635,16777215)</MI_STYLE>
+m_r_dorogi_avtomobil_nye_g	<MI_STYLE>Pen(1,63,14721044)</MI_STYLE>
+m_r_dorogi_avtomobil_nye_g	<MI_STYLE>Pen(1,63,15360096)</MI_STYLE>
+m_r_dorogi_jeleznye_g	<MI_STYLE>Pen(1,73,7828608)</MI_STYLE>
+m_r_dorogi_jeleznye_stancii_g	<MI_STYLE>Symbol(32,16777215,6)</MI_STYLE>
+m_r_gazprom_obsestva_docerni_g	<MI_STYLE>Pen(1,1,0) Brush(1,0,16777215)</MI_STYLE>
+m_r_gazprom_obsestva_poemg_g	<MI_STYLE>Symbol("GPR.bmp",255,20,0)</MI_STYLE>
+m_r_gidrografia_rf_1_ozera_m_g	<MI_STYLE>Pen(1,2,13027829) Brush(2,12179455,16777215)</MI_STYLE>
+m_r_gidrografia_rf_1_reki_li_g	<MI_STYLE>Pen(1,2,13027829)</MI_STYLE>
+m_r_gidrografia_rf_1_reki_li_g	<MI_STYLE>Pen(1,2,13027829) Brush(2,12179455,16777215)</MI_STYLE>
+m_r_gidrografia_rf_2_ozera_m_g	<MI_STYLE>Pen(1,2,13027829) Brush(2,12179455,16777215)</MI_STYLE>
+m_r_gidrografia_rf_2_reki_li_g	<MI_STYLE>Pen(1,2,13027829)</MI_STYLE>
+m_r_nasel_punkty_goroda_proc_g	<MI_STYLE>Symbol(34,10526975,8)</MI_STYLE>
+m_r_nasel_punkty_procie_g	<MI_STYLE>Symbol(34,10526975,6)</MI_STYLE>
+m_r_nasel_punkty_stolicy_g	<MI_STYLE>Pen(1,2,15848343) Brush(2,16773044,16777215)</MI_STYLE>
+m_r_sopred_gosudarstva_g	<MI_STYLE>Pen(1,2,10658435) Brush(2,12829635,16777215)</MI_STYLE>
+m_r_sub_ekty_rf_adm_centry_g	<MI_STYLE>Pen(1,2,15848343) Brush(2,16773044,16777215)</MI_STYLE>
+m_r_sub_ekty_rf_adm_centry_g	<MI_STYLE>Symbol(34,15848343,8)</MI_STYLE>
+m_r_sub_ekty_rf_g	<MI_STYLE>Pen(1,2,10658435) Brush(2,16777177,16777215)</MI_STYLE>
+m_r_sub_ekty_rf_rayony_adm_c_g	<MI_STYLE>Symbol(34,10526975,8)</MI_STYLE>
+m_r_sub_ekty_rf_rayony_adm_c_g	<MI_STYLE>Symbol(34,10526975,6)</MI_STYLE>
+m_r_sub_ekty_rf_rayony_adm_c_g	<MI_STYLE>Pen(1,2,8421504) Brush(2,10526975,16777215)</MI_STYLE>
+m_r_sub_ekty_rf_rayony_g	<MI_STYLE>Pen(1,2,11853236) Brush(1,0,16777215)</MI_STYLE>
