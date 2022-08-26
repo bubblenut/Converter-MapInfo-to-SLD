@@ -8,51 +8,34 @@ import xmlFiller
 inputPath = 'inputs/input.txt'
 errorsPath = 'errors/errors.txt'
 
-input("Нажмите ентер чтобы начать конвертацию\n")
-
-
+allLayers = {}
+with open(inputPath, 'r', encoding='utf-8') as fillmapfile, open(errorsPath, 'w', encoding='utf-8') as flog:
+    for line in fillmapfile:
+        allLayers[extractor.extractLayer(line)] = ''
 
 with open(inputPath, 'r', encoding='utf-8') as fin:
     with open(errorsPath, 'w', encoding='utf-8') as ferr:
-
-        layerPrev: str = extractor.extractLayer(fin.readline())
-        fullStyle: str = ''
         i: int = 0
-
-        for inpline in fin:
-
+        for line in fin:
             i += 1
-            key: str = extractor.extractKey(inpline)
-            style: str = extractor.extractStyle(inpline)
-            layer: str = extractor.extractLayer(inpline)
-            iscor: (bool, str) = logger.isCorrect(i, style, key, layer)
+            print(i)
+            layer: str = extractor.extractLayer(line)
+            key: str = extractor.extractKey(line)
+            style: str = extractor.extractStyle(line)
 
-            if layer != layerPrev:
-                stylePath = 'styles/' + layerPrev + "_Style.sld"
-                xmlPath = 'styles/' + layerPrev + "_Style.xml"
-                with open(xmlPath, 'w', encoding='utf-8') as fxml:
-                    #заполянем метаданными файл xml
-                    fxml.write(xmlFiller.createXml(layer))
-                with open(stylePath, 'w', encoding='utf-8') as fsld:
-                    #заполняем стилем файл sld
-                    fsld.write(dictionary.styleHeading + '\n')
-                    fsld.write(fullStyle)
-                    fsld.write(dictionary.styleFooting + '\n')
-
-                layerPrev = layer
-                fullStyle = ''
-                if iscor[0]:
-                    fullStyle += MapInfoToSLD.convertStyle(style, key)
-                else:
-                    ferr.write(iscor[1])
-                continue
+            isCorrect: (bool, str) = logger.isCorrect(i,style, key, layer)
+            if isCorrect[0]:
+                allLayers[layer] += MapInfoToSLD.convertStyle(style,key) + '\n'
             else:
-                if iscor[0]:
-                    fullStyle += MapInfoToSLD.convertStyle(style, key)
-                else:
-                    ferr.write(iscor[1])
-                continue
+                ferr.write(isCorrect[1] + '\n\n')
 
+for elem in allLayers:
+    with open('styles/' + elem + "_Style.xml", 'w', encoding='utf-8') as fxml:
+        fxml.write(xmlFiller.createXml(layer))
+    with open('styles/' + elem + "_Style.sld", 'w', encoding='utf-8') as fsld:
+        fsld.write(dictionary.styleHeading + '\n\n\n')
+        fsld.write(allLayers[elem])
+        fsld.write(dictionary.styleFooting + '\n')
 
 print('Конвертация завершена\n\n')
 input("Нажмите Enter")

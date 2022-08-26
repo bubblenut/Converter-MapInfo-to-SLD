@@ -3,79 +3,62 @@ import dictionary
 import extractor
 import logger
 import xmlFiller
+import re
 
+name:str = input("имя карты: ")
 inputPath = 'inputs/input.txt'
-errorsPath = 'errors/errors.txt'
+errorsPath = 'errors/' + name + 'errors.txt'
 
+allLayers = {}
+headings={}
+with open(inputPath, 'r', encoding='utf-8') as fillmapfile, open(errorsPath, 'w', encoding='utf-8') as flog:
+    for line in fillmapfile:
+        allLayers[extractor.extractLayer(line)] = ''
+        headings[extractor.extractLayer(line)] = extractor.extractKey(line)
 
-last: str
-with open(inputPath, 'r', encoding='utf-8') as f:
-    lines = f.readlines()
-    last = lines[-1]
+with open(inputPath, 'r', encoding='utf-8') as fin:
+    with open(errorsPath, 'w', encoding='utf-8') as ferr:
+        i: int = 0
+        brokenstyles: int = 0
+        normalstyles: int = 0
+        for line in fin:
+            i += 1
+            layer: str = extractor.extractLayer(line)
+            key: str = extractor.extractKey(line)
+            style: str = extractor.extractStyle(line)
 
-layercount: int = 0
-with open(inputPath, 'r', encoding='utf-8') as fin, open(errorsPath, 'w', encoding='utf-8') as flog:
-    fullStyle: str = ''
-    i: int = 0
-    layerPrev: str
-    ulayers = set()
-
-    for  line in fin:
-        i += 1
-        print(i)
-        layer: str = extractor.extractLayer(line)
-        key: str = extractor.extractKey(line)
-        style: str = extractor.extractStyle(line)
-
-        ulayers.add(layer)
-
-        if i == 1:
-            layerPrev = layer
-        isCorrect: (bool, str) = logger.isCorrect(i,style, key, layer)
-
-        if isCorrect[0]:
-            if layer != layerPrev:
-                with open('styles/' + layerPrev + "_Style.xml", 'w', encoding='utf-8') as fxml:
-                    fxml.write(xmlFiller.createXml(layer))
-                with open('styles/' + layerPrev + "_Style.sld", 'w', encoding='utf-8') as fsld:
-                    fsld.write(dictionary.styleHeading + '\n\n\n')
-                    fsld.write(fullStyle)
-                    fsld.write(dictionary.styleFooting + '\n')
-                fullStyle = ''
-                fullStyle += MapInfoToSLD.convertStyle(style, key)
-                layerPrev = layer
+            isCorrect: (bool, str) = logger.isCorrect(i, style, key, layer)
+            if isCorrect[0]:
+                normalstyles += 1
+                print(str(i) + " ", layer + ": OK")
+                allLayers[layer] += MapInfoToSLD.convertStyle(style, key) + '\n'
             else:
-                fullStyle += MapInfoToSLD.convertStyle(style, key)
-        else:
-            if layer != layerPrev:
-                with open('styles/' + layerPrev + "_Style.xml", 'w', encoding='utf-8') as fxml:
-                    fxml.write(xmlFiller.createXml(layer))
-                with open('styles/' + layerPrev + "_Style.sld", 'w', encoding='utf-8') as fsld:
-                    fsld.write(dictionary.styleHeading + '\n\n\n')
-                    fsld.write(fullStyle)
-                    fsld.write(dictionary.styleFooting + '\n')
-                fullStyle = ''
-                flog.write(isCorrect[1] + '\n\n')
-                layerPrev = layer
-            else:
-                flog.write(isCorrect[1] + '\n\n')
-
-        if line == last:
-            with open('styles/' + layerPrev + "_Style.xml", 'w', encoding='utf-8') as fxml:
-                fxml.write(xmlFiller.createXml(layer))
-            with open('styles/' + layerPrev + "_Style.sld", 'w', encoding='utf-8') as fsld:
-                fsld.write(dictionary.styleHeading + '\n\n\n')
-                fsld.write(fullStyle)
-                fsld.write(dictionary.styleFooting + '\n')
-
-        layercount = len(ulayers)
+                brokenstyles += 1
+                print(str(i) + " ", layer + ": ушел в лог")
+                ferr.write(isCorrect[1] + '\n\n')
 
 
+        with open("errors/"+ name + "stat.txt", "w", encoding="utf-8") as fstat:
+            fstat.write("инпут " + name + "\n")
+            fstat.write("Всего прочитано " + str(i) + "строк\n")
+            fstat.write("Среди них правильных стилей: " + str(normalstyles) + "\n")
+            fstat.write("Неконвертируемых стилей: " + str(brokenstyles) + "\n")
+            fstat.write("Уникальных пар sld c xml должно быть: " + str(len(allLayers)) + "\n")
+            fstat.write(str(allLayers))
 
-print("Конвертация успешно завершена\n" + "Должно быть " + str(layercount) + " стилей. Если их не столько - ошибка в конвертере")
+for elem in allLayers:
+    print(elem)
+    with open(name + '_styles/' + elem + "_Style.xml", 'w', encoding='utf-8') as fxml:
+        fxml.write(xmlFiller.createXml(elem))
+    with open(name + '_styles/' + elem + "_Style.sld", 'w', encoding='utf-8') as fsld:
+        fsld.write(re.sub("_STYLE_", headings[elem], dictionary.styleHeading) + '\n\n\n')
+        fsld.write(allLayers[elem])
+        fsld.write(dictionary.styleFooting + '\n')
+
+print('\nКонвертация завершена')
 input("Нажмите Enter")
 
-# пример слоя, ключа и стиля
-# layer: m_200_roads_g
+# пример ключа, стиля и слоя
 # key: m_200_roads_g_ & lt;MI_STYLE & gt;Pen(1, 65, 15774720) & lt;/MI_STYLE & gt;
 # style: Pen,1,65,15774720'
+# layer: m_200_roads_g

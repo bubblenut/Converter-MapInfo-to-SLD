@@ -5,18 +5,17 @@ styleHeading = '''<?xml version="1.0" encoding="UTF-8"?>
                        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>All Layers</Name>
+    <Name>_STYLE_</Name>
     <UserStyle>
-      <Title>Styles for TestoreWGS</Title>'''
+      <Title>_STYLE_</Title>'''
 
 
 styleFooting = '''</UserStyle>
-  </NamedLayer>
+</NamedLayer>
 </StyledLayerDescriptor>'''
 
 
-filterHeading = '''
-        <ogc:Filter>
+filterHeading = '''        <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>g_style</ogc:PropertyName>
             <ogc:Literal>'''
@@ -35,7 +34,7 @@ penDict = {0: ['''        <LineSymbolizer>
                'width',
                '''</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
             2: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
@@ -45,7 +44,7 @@ penDict = {0: ['''        <LineSymbolizer>
                'width',
                '''</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            3: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
@@ -56,7 +55,7 @@ penDict = {0: ['''        <LineSymbolizer>
                '''</CssParameter>
             <CssParameter name="stroke-dasharray">1 2</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            4: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
@@ -67,7 +66,7 @@ penDict = {0: ['''        <LineSymbolizer>
                '''</CssParameter>
             <CssParameter name="stroke-dasharray">2 2</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            5: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
@@ -78,7 +77,7 @@ penDict = {0: ['''        <LineSymbolizer>
                '''</CssParameter>
             <CssParameter name="stroke-dasharray">4 2</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            6: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -89,7 +88,7 @@ penDict = {0: ['''        <LineSymbolizer>
                '''</CssParameter>
             <CssParameter name="stroke-dasharray">8 2</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            7: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -100,7 +99,7 @@ penDict = {0: ['''        <LineSymbolizer>
                '''</CssParameter>
             <CssParameter name="stroke-dasharray">16 3</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            8: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -111,7 +110,7 @@ penDict = {0: ['''        <LineSymbolizer>
                '''</CssParameter>
             <CssParameter name="stroke-dasharray">31 8</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            9: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -122,7 +121,7 @@ penDict = {0: ['''        <LineSymbolizer>
                '''</CssParameter>
             <CssParameter name="stroke-dasharray">5 5</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            10: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -133,7 +132,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
             <CssParameter name="stroke-dasharray">1 7</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            11: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -144,7 +143,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
             <CssParameter name="stroke-dasharray">4 8</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            12: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -155,7 +154,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
             <CssParameter name="stroke-dasharray">8 8</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            13: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -166,7 +165,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
             <CssParameter name="stroke-dasharray">16 16</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            14: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -177,7 +176,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
             <CssParameter name="stroke-dasharray">11 5 1 5</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            15: ['''        <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -188,7 +187,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
             <CssParameter name="stroke-dasharray">17 3 1 3</CssParameter>
           </Stroke>
-        </LineSymbolizer>'''],
+        </LineSymbolizer>\n'''],
            16: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -199,7 +198,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">18 3 4 3</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            17: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -210,7 +209,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">32 12 6 12</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            18: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -221,7 +220,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">32 6 4 6 4 6</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            19: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -232,7 +231,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">32 6 4 6 4 6 4 6</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            20: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -243,7 +242,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">11 5 1 5 1 5</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            21: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -254,7 +253,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">20 4 1 4 1 4</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            22: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -265,7 +264,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">20 4 1 4 1 4 1 4</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            23: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -276,7 +275,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">6 2 1 2</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''
+         </LineSymbolizer>\n'''
                 ],
            24: ['''        <LineSymbolizer>
 <Stroke>
@@ -288,7 +287,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">6 2 1 2 1 2</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            25: ['''        <LineSymbolizer>
 <Stroke>
   <CssParameter name="stroke">''',
@@ -299,7 +298,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
              <CssParameter name="stroke-dasharray">10 2 1 2 4 2 1 2</CssParameter>
            </Stroke>
-         </LineSymbolizer>'''],
+         </LineSymbolizer>\n'''],
            26: ['''          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -334,7 +333,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            27: ['''          <LineSymbolizer>
   <Stroke>
     <GraphicStroke>
@@ -369,7 +368,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            28: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -404,7 +403,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            29: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -439,7 +438,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            32: ['''          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -455,7 +454,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            34: ['''          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -471,7 +470,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            37: ['''          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -487,7 +486,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            39: ['''          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -503,7 +502,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            42: ['''          <LineSymbolizer>
   <Stroke>
     <GraphicStroke>
@@ -519,7 +518,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            44: ['''          <LineSymbolizer>
   <Stroke>
     <GraphicStroke>
@@ -535,7 +534,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            46: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -551,7 +550,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            45: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -567,7 +566,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            48: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -584,7 +583,7 @@ penDict = {0: ['''        <LineSymbolizer>
               </GraphicStroke>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
             </Stroke>
-          </LineSymbolizer>''',
+          </LineSymbolizer>\n''',
         '''       
           <LineSymbolizer>
             <Stroke>
@@ -603,7 +602,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            49: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -638,7 +637,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            51: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -673,7 +672,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            52: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -689,7 +688,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            53: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -705,7 +704,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            54: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -740,7 +739,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            55: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -775,7 +774,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            57: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -791,7 +790,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            59: ['''          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -799,8 +798,8 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
     <CssParameter name="stroke-width">2</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
-           '''<PointSymbolizer>
+</LineSymbolizer>\n''',
+           '''        <PointSymbolizer>
   <Geometry>
     <ogc:Function name="endPoint">
       <ogc:PropertyName>pg_geom</ogc:PropertyName>
@@ -826,7 +825,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
            60: ['''          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -834,7 +833,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
     <CssParameter name="stroke-width">2</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
            '''<PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
@@ -861,7 +860,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
            61: ['''          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -869,7 +868,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
     <CssParameter name="stroke-width">2</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
            '''<PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
@@ -896,7 +895,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>''',
+</PointSymbolizer>\n''',
            '''<PointSymbolizer>
   <Geometry>
     <ogc:Function name="endPoint">
@@ -923,7 +922,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
            62: ['''          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -931,7 +930,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 '''</CssParameter>
     <CssParameter name="stroke-width">2</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
            '''<PointSymbolizer>
   <Geometry>
     <ogc:Function name="startPoint">
@@ -958,13 +957,32 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
            63: ['''          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
                 <Graphic>
                   <Mark>
                     <WellKnownName>ttf://Line_Styles#62</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">''',
+
+                'color',
+
+                '''</CssParameter>
+                    </Fill>
+                  </Mark>
+                </Graphic>
+              </GraphicStroke>
+            </Stroke>
+          </LineSymbolizer>\n''',
+
+                '''          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
                     <Fill>
                       <CssParameter name="fill">''',
 
@@ -976,90 +994,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>''',
-
-                '''          <LineSymbolizer>
-            <Stroke>
-              <GraphicStroke>
-                <Graphic>
-                  <Mark>
-                    <WellKnownName>ttf://Line_Styles#63</WellKnownName>
-                    <Fill>
-                      <CssParameter name="fill">''',
-
-                'color',
-
-                '''</CssParameter>
-                    </Fill>
-                  </Mark>
-                </Graphic>
-              </GraphicStroke>
-            </Stroke>
-          </LineSymbolizer>''',
-
-           '''<PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="startPoint">
-      <ogc:PropertyName>pg_geom</ogc:PropertyName>
-    </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="startAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
-</PointSymbolizer>''',
-
-           '''<PointSymbolizer>
-  <Geometry>
-    <ogc:Function name="endPoint">
-      <ogc:PropertyName>pg_geom</ogc:PropertyName>
-    </ogc:Function>
-  </Geometry>
-  <Graphic>
-    <Mark>
-      <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-      <Fill>
-        <CssParameter name="fill">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Fill>
-      <Stroke>
-        <CssParameter name="stroke">''',
-
-           'color',
-
-           '''</CssParameter>
-      </Stroke>
-    </Mark>
-    <Rotation>
-      <ogc:Function name="endAngle">
-        <ogc:PropertyName>pg_geom</ogc:PropertyName>
-      </ogc:Function>
-    </Rotation>
-  </Graphic>
-</PointSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            66: ['''        <LineSymbolizer>
           <Stroke>
             <CssParameter name="stroke">''',
@@ -1071,7 +1006,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
             <CssParameter name="stroke-dashoffset">10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''        <LineSymbolizer>
           <Stroke>
@@ -1083,7 +1018,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-width">2</CssParameter>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''         <LineSymbolizer>
           <Stroke>
@@ -1095,7 +1030,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
             <CssParameter name="stroke-dashoffset">10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''        <LineSymbolizer>
           <Stroke>
@@ -1107,7 +1042,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-width">2</CssParameter>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''        <LineSymbolizer>
           <Stroke>
@@ -1118,7 +1053,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
           </Stroke>
           <PerpendicularOffset>5</PerpendicularOffset>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''        <LineSymbolizer>
           <Stroke>
@@ -1131,7 +1066,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
           </Stroke>
           <PerpendicularOffset>-5</PerpendicularOffset>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
            '''<PointSymbolizer>
   <Geometry>
@@ -1163,7 +1098,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>''',
+</PointSymbolizer>\n''',
 
            '''<PointSymbolizer>
   <Geometry>
@@ -1195,7 +1130,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
     65: ['''          <LineSymbolizer>
                        <Stroke>
                          <GraphicStroke>
@@ -1213,7 +1148,7 @@ penDict = {0: ['''        <LineSymbolizer>
          </Graphic>
        </GraphicStroke>
      </Stroke>
-   </LineSymbolizer>''',
+   </LineSymbolizer>\n''',
 
          '''          <LineSymbolizer>
      <Stroke>
@@ -1232,7 +1167,7 @@ penDict = {0: ['''        <LineSymbolizer>
          </Graphic>
        </GraphicStroke>
      </Stroke>
-   </LineSymbolizer>''',
+   </LineSymbolizer>\n''',
 
          '''<PointSymbolizer>
 <Geometry>
@@ -1257,7 +1192,7 @@ penDict = {0: ['''        <LineSymbolizer>
     </ogc:Function>
   </Rotation>
 </Graphic>
-</PointSymbolizer>''',
+</PointSymbolizer>\n''',
 
          '''<PointSymbolizer>
 <Geometry>
@@ -1282,7 +1217,7 @@ penDict = {0: ['''        <LineSymbolizer>
     </ogc:Function>
   </Rotation>
 </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
 
            64: ['''        <LineSymbolizer>
           <Stroke>
@@ -1295,7 +1230,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
             <CssParameter name="stroke-dashoffset">10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''        <LineSymbolizer>
           <Stroke>
@@ -1307,14 +1242,14 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-width">2</CssParameter>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
             <CssParameter name="stroke-dashoffset">10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''        <LineSymbolizer>
           <Stroke>
@@ -1326,7 +1261,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-width">2</CssParameter>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
           </Stroke>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''</CssParameter>
             <CssParameter name="stroke-width">2</CssParameter>
@@ -1334,7 +1269,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dashoffset">10</CssParameter>
           </Stroke>
           <PerpendicularOffset>5</PerpendicularOffset
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
                 '''        <LineSymbolizer>
           <Stroke>
@@ -1347,7 +1282,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dasharray">10 10</CssParameter>
           </Stroke>
           <PerpendicularOffset>-5</PerpendicularOffset>
-        </LineSymbolizer>''',
+        </LineSymbolizer>\n''',
 
            '''<PointSymbolizer>
   <Geometry>
@@ -1379,7 +1314,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>''',
+</PointSymbolizer>\n''',
 
            '''<PointSymbolizer>
   <Geometry>
@@ -1411,7 +1346,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </ogc:Function>
     </Rotation>
   </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
            68: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -1446,7 +1381,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
 
            69: ['''          <LineSymbolizer>
 <Stroke>
@@ -1479,7 +1414,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            72: ['''          <LineSymbolizer>
 <Stroke>
   <GraphicStroke>
@@ -1505,7 +1440,7 @@ penDict = {0: ['''        <LineSymbolizer>
             <CssParameter name="stroke-dasharray">10 5</CssParameter>
             <CssParameter name="stroke-dashoffset">5</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            73:  ['''          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">''',
@@ -1514,7 +1449,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-width">4</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
             </Stroke>
-          </LineSymbolizer>''',
+          </LineSymbolizer>\n''',
                  '''          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">''', 'color', '''</CssParameter>
@@ -1522,15 +1457,15 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-linecap">round</CssParameter> 
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
             </Stroke>
-          </LineSymbolizer>''',
-          '''<LineSymbolizer>
+          </LineSymbolizer>\n''',
+          '''         <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ffffff</CssParameter>
               <CssParameter name="stroke-width">2</CssParameter>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
            74: ['''          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -1539,7 +1474,7 @@ penDict = {0: ['''        <LineSymbolizer>
                     <CssParameter name="stroke-width">4</CssParameter>
                     <CssParameter name="stroke-linecap">round</CssParameter>
                   </Stroke>
-                </LineSymbolizer>''',
+                </LineSymbolizer>\n''',
                 '''          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">''', 'color', '''</CssParameter>
@@ -1547,15 +1482,15 @@ penDict = {0: ['''        <LineSymbolizer>
     <CssParameter name="stroke-linecap">round</CssParameter> 
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
-                '''<LineSymbolizer>
+</LineSymbolizer>\n''',
+                '''         <LineSymbolizer>
                    <Stroke>
                      <CssParameter name="stroke">#999999</CssParameter>
                      <CssParameter name="stroke-width">2</CssParameter>
                      <CssParameter name="stroke-dasharray">10 10</CssParameter>
                      <CssParameter name="stroke-dashoffset">10</CssParameter>
                    </Stroke>
-                 </LineSymbolizer>'''],
+                 </LineSymbolizer>\n'''],
            75: ['''          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">''', 'color', '''</CssParameter>
@@ -1563,15 +1498,15 @@ penDict = {0: ['''        <LineSymbolizer>
     <CssParameter name="stroke-linecap">round</CssParameter> 
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
-                '''<LineSymbolizer>
+</LineSymbolizer>\n''',
+                '''         <LineSymbolizer>
                    <Stroke>
                      <CssParameter name="stroke">#999999</CssParameter>
                      <CssParameter name="stroke-width">2</CssParameter>
                      <CssParameter name="stroke-dasharray">10 10</CssParameter>
                      <CssParameter name="stroke-dashoffset">10</CssParameter>
                    </Stroke>
-                 </LineSymbolizer>'''],
+                 </LineSymbolizer>\n'''],
            76: ['''          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -1580,7 +1515,7 @@ penDict = {0: ['''        <LineSymbolizer>
                     <CssParameter name="stroke-width">4</CssParameter>
                     <CssParameter name="stroke-linecap">round</CssParameter>
                   </Stroke>
-                </LineSymbolizer>''',
+                </LineSymbolizer>\n''',
                 '''          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">''', 'color', '''</CssParameter>
@@ -1588,15 +1523,15 @@ penDict = {0: ['''        <LineSymbolizer>
     <CssParameter name="stroke-linecap">round</CssParameter> 
     <CssParameter name="stroke-dasharray">20 20</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
-                '''<LineSymbolizer>
+</LineSymbolizer>\n''',
+                '''         <LineSymbolizer>
                    <Stroke>
                      <CssParameter name="stroke">#999999</CssParameter>
                      <CssParameter name="stroke-width">2</CssParameter>
                      <CssParameter name="stroke-dasharray">20 20</CssParameter>
                      <CssParameter name="stroke-dashoffset">20</CssParameter>
                    </Stroke>
-                 </LineSymbolizer>'''],
+                 </LineSymbolizer>\n'''],
            77: ['''          <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''',
@@ -1605,7 +1540,7 @@ penDict = {0: ['''        <LineSymbolizer>
                     <CssParameter name="stroke-width">4</CssParameter>
                     <CssParameter name="stroke-linecap">round</CssParameter>
                   </Stroke>
-                </LineSymbolizer>''',
+                </LineSymbolizer>\n''',
                 '''          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">''', 'color', '''</CssParameter>
@@ -1613,23 +1548,23 @@ penDict = {0: ['''        <LineSymbolizer>
     <CssParameter name="stroke-linecap">round</CssParameter> 
     <CssParameter name="stroke-dasharray">15 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
-                '''<LineSymbolizer>
+</LineSymbolizer>\n''',
+                '''         <LineSymbolizer>
                    <Stroke>
                      <CssParameter name="stroke">#999999</CssParameter>
                      <CssParameter name="stroke-width">2</CssParameter>
                      <CssParameter name="stroke-dasharray">10 15</CssParameter>
                      <CssParameter name="stroke-dashoffset">15</CssParameter>
                    </Stroke>
-                 </LineSymbolizer>'''],
+                 </LineSymbolizer>\n'''],
 
-            78: [ '''<LineSymbolizer>
+            78: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>'''
+</LineSymbolizer>\n'''
                     ,'''       
           <LineSymbolizer>
             <Stroke>
@@ -1648,14 +1583,14 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
-        79: [ '''<LineSymbolizer>
+          </LineSymbolizer>\n'''],
+        79: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
 '''       <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -1673,14 +1608,14 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
-        80: [ '''<LineSymbolizer>
+          </LineSymbolizer>\n'''],
+        80: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">8</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
 '''       <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -1698,7 +1633,7 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
+          </LineSymbolizer>\n'''],
         81:['''          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#0</CssParameter>
@@ -1720,30 +1655,30 @@ penDict = {0: ['''        <LineSymbolizer>
               </GraphicStroke>
               <CssParameter name="stroke-dasharray">10 60</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
-           82: ['''<LineSymbolizer>
+          </LineSymbolizer>\n'''],
+           82: ['''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">#0</CssParameter>
     <CssParameter name="stroke-width">10</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
     <CssParameter name="stroke-dashoffset">10</CssParameter>    
   </Stroke>
-</LineSymbolizer>''',
-                '''<LineSymbolizer>
+</LineSymbolizer>\n''',
+                '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">4.5</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
     <CssParameter name="stroke-dashoffset">10</CssParameter>    
   </Stroke>
-</LineSymbolizer>'''],
-        83: [ '''<LineSymbolizer>
+</LineSymbolizer>\n'''],
+        83: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">8</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
 '''       <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -1761,14 +1696,14 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
-        84: [ '''<LineSymbolizer>
+          </LineSymbolizer>\n'''],
+        84: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">10</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
 '''       <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -1786,28 +1721,28 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
-        85: [ '''<LineSymbolizer>
+          </LineSymbolizer>\n'''],
+        85: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">12</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
-'''<LineSymbolizer>
+</LineSymbolizer>\n''',
+'''         <LineSymbolizer>
             <Stroke>
                <CssParameter name="stroke-width">4.5</CssParameter>
               <CssParameter name="stroke-dasharray">10 10</CssParameter>
               <CssParameter name="stroke-dashoffset">10</CssParameter>
             </Stroke>
-          </LineSymbolizer>'''],
-        86: [ '''<LineSymbolizer>
+          </LineSymbolizer>\n'''],
+        86: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
 '''<PointSymbolizer>
   <Graphic>
     <Mark>
@@ -1819,14 +1754,14 @@ penDict = {0: ['''        <LineSymbolizer>
       </Fill>
     </Mark>
   </Graphic>
-</PointSymbolizer>'''],
-        87: [ '''<LineSymbolizer>
+</PointSymbolizer>\n'''],
+        87: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">3.5</CssParameter>
     <CssParameter name="stroke-dasharray">10 10</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
 '''<PointSymbolizer>
   <Graphic>
     <Mark>
@@ -1838,7 +1773,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </Fill>
     </Mark>
   </Graphic>
-</PointSymbolizer>'''],
+</PointSymbolizer>\n'''],
         88: ['''          <LineSymbolizer>
             <Stroke>
               <GraphicStroke>
@@ -1856,7 +1791,7 @@ penDict = {0: ['''        <LineSymbolizer>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>''',
+          </LineSymbolizer>\n''',
 
                 '''          <LineSymbolizer>
             <Stroke>
@@ -1865,24 +1800,20 @@ penDict = {0: ['''        <LineSymbolizer>
                   <Mark>
                     <WellKnownName>ttf://Line_Styles#94</WellKnownName>
                     <Fill>
-                      <CssParameter name="fill">''',
-
-                'color',
-
-                '''</CssParameter>
+                      <CssParameter name="fill">''','color','''</CssParameter>
                     </Fill>
                   </Mark>
                 </Graphic>
               </GraphicStroke>
             </Stroke>
-          </LineSymbolizer>'''],
-        89: [ '''<LineSymbolizer>
+          </LineSymbolizer>\n'''],
+        89: [ '''         <LineSymbolizer>
   <Stroke>
     <CssParameter name="stroke">''', 'color', '''</CssParameter>
     <CssParameter name="stroke-width">1</CssParameter>
     <CssParameter name="stroke-dasharray">10 2</CssParameter>
   </Stroke>
-</LineSymbolizer>''',
+</LineSymbolizer>\n''',
 '''<PointSymbolizer>
   <Graphic>
     <Mark>
@@ -1894,7 +1825,7 @@ penDict = {0: ['''        <LineSymbolizer>
       </Fill>
     </Mark>
   </Graphic>
-</PointSymbolizer>''']}
+</PointSymbolizer>\n''']}
 
 
 brushDictSimple = ['''          <PolygonSymbolizer>
@@ -1912,7 +1843,7 @@ brushDict = [''' <PolygonSymbolizer>
              'colorBg',
              '''</CssParameter>
   </Fill>
-</PolygonSymbolizer>''',
+</PolygonSymbolizer>\n''',
              ''' <PolygonSymbolizer>
   <Fill>
     <GraphicFill>
@@ -2027,3 +1958,5 @@ xmlDict = ['''<style>
   <filename>''','layer','''_Style.sld</filename>
   <dateCreated>''','date','''</dateCreated>
 </style>''']
+
+emerencyStyle = ''

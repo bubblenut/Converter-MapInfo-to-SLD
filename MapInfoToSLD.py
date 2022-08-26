@@ -1,9 +1,6 @@
 import re
 import dictionary
 
-#denominator = '\n<MinScaleDenominator>534</MinScaleDenominator>\n' + '<MaxScaleDenominator>2183916</MaxScaleDenominator>\n'
-denominator = ''
-
 def convertSymbolTTF(line: str, key: str):
     symdict = dictionary.symbolDictTTF
 
@@ -14,7 +11,7 @@ def convertSymbolTTF(line: str, key: str):
     fontname = symattr[4].strip("\"")
     fontstyle = symattr[5]
 
-    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
+    res = '  <FeatureTypeStyle>' + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting
 
     for elem in symdict:
         if elem == 'shape':
@@ -29,7 +26,7 @@ def convertSymbolTTF(line: str, key: str):
             elem = fontstyle
         res += str(elem)
 
-    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
+    return res + '\t  </Rule>\n' + '  </FeatureTypeStyle>\n\n'
 
 
 def convertBrush(line: str, key: str):
@@ -48,7 +45,7 @@ def convertBrush(line: str, key: str):
     if int(patternPen) == 1 and int(patternBrush) == 1:
         return '\n'
 
-    res = '<FeatureTypeStyle>' + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting  + denominator
+    res = '  <FeatureTypeStyle>'  + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting
 
     if int(patternBrush) != 1 and int(patternBrush) != 0:
         if (int(patternBrush) == 2):
@@ -72,7 +69,7 @@ def convertBrush(line: str, key: str):
                 elem = colorPen
             res += elem
 
-    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
+    return res + '\t  </Rule>\n' + '  </FeatureTypeStyle>\n\n'
 
 
 def convertPen(line: str, key: str):
@@ -87,7 +84,7 @@ def convertPen(line: str, key: str):
     if int(width) > 7:
         width = str((int(width) - 10) / 10)
 
-    res = '<FeatureTypeStyle>'  + '\n<Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + denominator
+    res = '  <FeatureTypeStyle>'  + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting
 
     for elem in dict[pattern]:
         if elem == 'width':
@@ -96,7 +93,7 @@ def convertPen(line: str, key: str):
             elem = color
         res += elem
 
-    return res + '\n</Rule>\n' + '</FeatureTypeStyle>\n'
+    return res + '\t  </Rule>\n' + '  </FeatureTypeStyle>\n\n'
 
 
 def convertStyle(style: str, key: str) -> str:
