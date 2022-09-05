@@ -5,7 +5,7 @@ import logger
 import xmlFiller
 import re
 
-name:str = input("имя карты: ")
+name:str = ("")
 inputPath = 'inputs/input.txt'
 errorsPath = 'errors/' + name + 'errors.txt'
 
@@ -39,18 +39,19 @@ with open(inputPath, 'r', encoding='utf-8') as fin:
 
 
         with open("errors/"+ name + "stat.txt", "w", encoding="utf-8") as fstat:
-            fstat.write("инпут " + name + "\n")
-            fstat.write("Всего прочитано " + str(i) + "строк\n")
+            fstat.write("Входной файл " + str(fin.name) + "\n\n")
+            fstat.write("Всего прочитано " + "строк: "  + str(i) + "\n")
             fstat.write("Среди них правильных стилей: " + str(normalstyles) + "\n")
             fstat.write("Неконвертируемых стилей: " + str(brokenstyles) + "\n")
             fstat.write("Уникальных пар sld c xml должно быть: " + str(len(allLayers)) + "\n")
-            fstat.write(str(allLayers))
 
 for elem in allLayers:
     print(elem)
-    with open(name + '_styles/' + elem + "_Style.xml", 'w', encoding='utf-8') as fxml:
+    with open(name + 'styles/' + elem + "_Style.xml", 'w', encoding='utf-8') as fxml:
         fxml.write(xmlFiller.createXml(elem))
-    with open(name + '_styles/' + elem + "_Style.sld", 'w', encoding='utf-8') as fsld:
+    with open(name + 'styles/' + elem + "_Style.sld", 'w', encoding='utf-8') as fsld:
+        if allLayers[elem] == '':
+            allLayers[elem] = dictionary.emerencyStyle
         fsld.write(re.sub("_STYLE_", headings[elem], dictionary.styleHeading) + '\n\n\n')
         fsld.write(allLayers[elem])
         fsld.write(dictionary.styleFooting + '\n')

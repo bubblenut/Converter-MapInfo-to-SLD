@@ -107,12 +107,12 @@ m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Pen (2, 5, 16711680)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (77,0,6,"UZ_ESG",256,*)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (50,0,7,"UZ25",0,*)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Pen (1, 1, 0)</MI_STYLE>
-m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (47,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (47,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (58,2359296,10,"UZrastenie",0,*)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Pen (2, 7, 8421376)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Pen (1, 1, 0) Brush (1, 0, 16777215)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Pen (1, 1, 16711680)</MI_STYLE>
-m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (47,0,12,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (47,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Pen (2, 2, 16711680) Brush (1, 0, 16777215)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Symbol (46,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_gas_g	m_5_prom_gas_g_<MI_STYLE>Pen (1, 2, 0) Brush (8, 0)</MI_STYLE>
@@ -315,7 +315,7 @@ m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZdorogi",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZdorogi",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZgrunt_bolota",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,12,"UZrastenie",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (32,0,14,"UZrastenie",0,*)</MI_STYLE>
@@ -369,26 +369,26 @@ m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (44,32768,6,"UZprom_obiekt",0,*)</M
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (44,65280,6,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,5,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,5,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,5,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,5,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,6,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,6,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,7,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,7,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,8,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,8,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,8,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,8,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZpromobiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZpromobiekt",1,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",1,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZpromobiekt",256,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,16711680,9,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,16711680,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,32768,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,32768,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (48,3755302,7,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,10,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,12,"MapInfo Symbols",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
@@ -399,14 +399,14 @@ m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,6,"UZprom_obiekt",256,*)</MI_
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,8,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,8,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,9,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,9,"UZprom_obiekt",1,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (50,2359296,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (51,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (51,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (51,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (51,0,12,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (51,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (52,0,20,"UZ25",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,10,"UZprom_obiekt",1,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
@@ -415,7 +415,7 @@ m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,4,"UZprom_obiekt",0,*)</MI_ST
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,4,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,5,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,6,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,6,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,6,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,6,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,7,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (53,0,8,"UZprom_obiekt",0,*)</MI_STYLE>
@@ -435,9 +435,9 @@ m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (58,0,6,"UZprom_obiekt",256,*)</MI_
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (58,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (58,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,10,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,10,"UZprom_obiekt",256,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,10,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,10,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,10,"UZprom_obiekt",257,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,4,"UZprom_obiekt",0,*)</MI_STYLE>
@@ -447,9 +447,9 @@ m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,6,"UZprom_obiekt",256,*)</MI_
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,7,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,8,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,9,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,9,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,16777215,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,168,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (59,32768,12,"UZprom_obiekt",0,*)</MI_STYLE>
@@ -459,13 +459,13 @@ m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,10,"UZprom_obiekt",256,*)</MI
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,4,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,6,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,6,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,6,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,6,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,8,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,9,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
-m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,9,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (60,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (61,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (61,32768,12,"UZgidrografia",0,*)</MI_STYLE>
 m_5_prom_lp_g	m_5_prom_lp_g_<MI_STYLE>Symbol (61,32768,12,"UZgidrografia",256,*)</MI_STYLE>
@@ -735,7 +735,7 @@ m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Pen (17, 1, 0)</MI_STYLE>
 m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Symbol (41,0,12,"UZdorogi",0,*)</MI_STYLE>
 m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Symbol (48,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Pen (15, 1, 0)</MI_STYLE>
-m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Symbol (63,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Symbol (63,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Pen (3, 2, 0)</MI_STYLE>
 m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Pen (15, 8, 0)</MI_STYLE>
 m_5_roads_lp_g	m_5_roads_lp_g_<MI_STYLE>Pen (12, 2, 0)</MI_STYLE>
@@ -950,7 +950,7 @@ m_5_roads_s_g	m_5_roads_s_g_<MI_STYLE>Pen (1, 1, 16711935) Brush (2, 16753873)</
 m_5_roads_s_g	m_5_roads_s_g_<MI_STYLE>Pen (1, 1, 0) Brush (2, 16758833, 16777215)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (68,0,10,"UZ25",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (86,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (66,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (66,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (65,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Pen (1, 93, 0)</MI_STYLE>
@@ -981,14 +981,14 @@ m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (36,0,12,"UZgrunt_bolota",0,*)</MI_
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (33,0,12,"UZstroenie_zdanie",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (50,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (82,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (97,0,12,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (97,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (97,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (55,0,12,"UZstroenie_zdanie",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (35, 255, 7)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (89,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (63,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (63,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (44,0,4,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (61,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (61,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (69,0,7,"UZgidrografia",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (40,0,14,"UZdorogi",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (53,0,7,"UZprom_obiekt",0,*)</MI_STYLE>
@@ -999,7 +999,7 @@ m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (47,0,10,"UZprom_obiekt",0,*)</MI_S
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (43,0,8,"UZdorogi",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (37,0,12,"UZdorogi",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (48,0,9,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (37,0,12,"UZgeopunkt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (51,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (33,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
@@ -1023,7 +1023,7 @@ m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (90,0,10,"UZprom_obiekt",0,*)</MI_S
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (36,0,12,"UZdorogi",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (59,0,10,"UZprom_obiekt",256,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,12,"UZpromobiekt",256,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,12,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (63,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Pen (2, 1, 16711680)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (50,0,7,"UZprom_obiekt",0,*)</MI_STYLE>
@@ -1048,7 +1048,7 @@ m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Pen (1, 2, 2359296)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (60,0,6,"UZprom_obiekt",256,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (40,0,12,"UZdorogi",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (48,0,9,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (48,0,9,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (88,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Pen (1, 80, 0)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (51,0,9,"UZ25",0,*)</MI_STYLE>
@@ -1066,7 +1066,7 @@ m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,12,"UZprom_obiekt",32,*)</MI_
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (60,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (59,0,12,"UZgidrografia",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (59,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (62,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (62,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (33,0,12,"UZrastenie",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (80,0,7,"UZgidrografia",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (58,0,12,"UZgidrografia",0,*)</MI_STYLE>
@@ -1149,9 +1149,9 @@ m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (193,0,10,"zn",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Pen (1, 11, 0)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (63,0,14,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (41,0,12,"UZdorogi",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,12,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,12,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (76,0,8,"UZprom_obiekt",0,*)</MI_STYLE>
-m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (80,0,10,"UZpromobiekt",0,*)</MI_STYLE>
+m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (80,0,10,"UZprom_obiekt",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (69,0,10,"UZgidrografia",256,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (35,0,8,"UZ25",0,*)</MI_STYLE>
 m_5_town_lp_g	m_5_town_lp_g_<MI_STYLE>Symbol (40,0,12,"UZdorogi",256,*)</MI_STYLE>

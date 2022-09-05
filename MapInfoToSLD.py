@@ -7,7 +7,7 @@ def convertSymbolTTF(line: str, key: str):
     symattr = line.split(",")
     shape = int(symattr[1])
     color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
-    size = symattr[3]
+    size = str(0.35 * int(symattr[3])) #добавлен коэф размера, вероятно формула там сложнее, исправить, поискать
     fontname = symattr[4].strip("\"")
     fontstyle = symattr[5]
 
@@ -47,19 +47,28 @@ def convertBrush(line: str, key: str):
 
     res = '  <FeatureTypeStyle>'  + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting
 
+    # if int(patternBrush) != 1 and int(patternBrush) != 0:
+    #     if (int(patternBrush) == 2):
+    #         for elem  in dictionary.brushDictSimple:
+    #             if elem == 'colorMain':
+    #                 elem = colorMain
+    #             res += elem
+    #     else:
+    #         for elem in dictionary.brushDict:
+    #             if elem == 'pattern':
+    #                 elem = '''<OnlineResource xlink:href="images/''' + str(dictionary.brushPattern[patternBrush]) + '''.svg?fill='''+ colorMain + '''" xlink:type="simple"/>'''
+    #             if elem == 'colorBg':
+    #                 elem = colorBg
+    #             res += elem
+
     if int(patternBrush) != 1 and int(patternBrush) != 0:
-        if (int(patternBrush) == 2):
-            for elem  in dictionary.brushDictSimple:
-                if elem == 'colorMain':
-                    elem = colorMain
-                res += elem
-        else:
-            for elem in dictionary.brushDict:
-                if elem == 'pattern':
-                    elem = '''<OnlineResource xlink:href="images/''' + str(dictionary.brushPattern[patternBrush]) + '''.svg?fill='''+ colorMain + '''" xlink:type="simple"/>'''
-                if elem == 'colorBg':
-                    elem = colorBg
-                res += elem
+        for elem  in dictionary.brushDictSimple:
+            if elem == 'colorMain':
+                elem = colorMain
+            res += elem
+
+    if int(widthPen) > 7:
+        widthPen = str((int(widthPen) - 10) / 10)
 
     if patternPen != 1:
         for elem in penDict[patternPen]:
