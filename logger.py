@@ -51,6 +51,10 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
             iscorrect = False
             errortext += 'аттрибут цвета фона содержит невалидное значение ' + stylearr[7]
     elif len(stylearr) == 7:
+        if 'Brush' in stylearr:
+            iscorrect = False
+            errortext += "Представлены не все аттрибуты Brush"
+            return iscorrect, errortext
         if stylearr[0] != 'Symbol':
             iscorrect = False
             errortext += 'аттрибут \'Symbol\' не найден, вместо него стоит ' + stylearr[0] + '; '
