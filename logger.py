@@ -9,6 +9,9 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
     key = re.sub("&gt;", ">", key)
 
     stylearr = style.split(",")
+    print(style)
+    print(stylearr)
+    print(len(stylearr))
 
     errortext  =  str(num) + ' строка input.txt' + ' :\nВ таблице ' + layer + ':\nпо ключу ' + key + ':\n'
     iscorrect = True
@@ -18,6 +21,9 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
         errortext += 'Невалидная длина строки\n\n'
         return iscorrect, errortext
     elif len(stylearr) == 8:
+        if int(stylearr[2]) == 1 and int(stylearr[5]) == 1:
+            iscorrect = False
+            errortext += 'Невидимый полигон'
         if stylearr[0] != 'Pen':
             iscorrect = False
             errortext += 'аттрибут \'Pen\' не найден, вместо него стоит ' + stylearr[0] + '; '
@@ -45,6 +51,10 @@ def isCorrect(num: int, style: str, key: str, layer: str) -> (bool, str):
             iscorrect = False
             errortext += 'аттрибут цвета фона содержит невалидное значение ' + stylearr[7]
     elif len(stylearr) == 7:
+        if 'Brush' in stylearr:
+            iscorrect = False
+            errortext += "Представлены не все аттрибуты Brush"
+            return iscorrect, errortext
         if stylearr[0] != 'Symbol':
             iscorrect = False
             errortext += 'аттрибут \'Symbol\' не найден, вместо него стоит ' + stylearr[0] + '; '

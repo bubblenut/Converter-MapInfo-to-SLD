@@ -16,7 +16,7 @@ def extractStyle(line:str) -> str:
     style = re.sub("</MI_STYLE>", "", style)
     style = re.sub("Pen", "Pen,", style)
     style = re.sub("Brush", "Brush,", style)
-    style = re.sub("Symbol", "Symbol,", style)
+    style = re.sub("Symbol[^s\"]", "Symbol,", style)
     style = re.sub(",\s+", ",", style)
     style = re.sub("\(|\)", "", style)
     style = re.sub("\sBrush", ",Brush", style)

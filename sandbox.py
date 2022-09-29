@@ -1,63 +1,55 @@
-import MapInfoToSLD
-import dictionary
-import extractor
-import logger
-import xmlFiller
+import re
+cm = 10157824
+cb = 16777215
+
+cmhex = re.sub("0x", "", str(hex(cm))).zfill(6)
+print("#" + cmhex)
+cbhex = re.sub("0x", "", str(hex(cb))).zfill(6)
+print("#" + cbhex)
+
+print("========================")
+
+rres = hex(round(( int(cmhex[:2],16) + int(cbhex[:2],16) ) / 2))
+gres = hex(round(( int(cmhex[2:-2],16) + int(cbhex[2:-2],16) ) / 2))
+bres = hex(round(( int(cmhex[-2:],16) + int(cbhex[-2:],16) ) / 2))
+
+rres = re.sub("0x", "", rres)
+gres = re.sub("0x", "", gres)
+bres = re.sub("0x", "", bres)
+
+print("#" + rres + gres + bres)
+# print(rres)
 
 
-inputPath = 'inputs/input.txt'
-errorsPath = 'errors/errors.txt'
-
-input("Нажмите ентер чтобы начать конвертацию\n")
-
-
-
-with open(inputPath, 'r', encoding='utf-8') as fin:
-    with open(errorsPath, 'w', encoding='utf-8') as ferr:
-
-        layerPrev: str = extractor.extractLayer(fin.readline())
-        fullStyle: str = ''
-        i: int = 0
-
-        for inpline in fin:
-
-            i += 1
-            key: str = extractor.extractKey(inpline)
-            style: str = extractor.extractStyle(inpline)
-            layer: str = extractor.extractLayer(inpline)
-            iscor: (bool, str) = logger.isCorrect(i, style, key, layer)
-
-            if layer != layerPrev:
-                stylePath = 'styles/' + layerPrev + "_Style.sld"
-                xmlPath = 'styles/' + layerPrev + "_Style.xml"
-                with open(xmlPath, 'w', encoding='utf-8') as fxml:
-                    #заполянем метаданными файл xml
-                    fxml.write(xmlFiller.createXml(layer))
-                with open(stylePath, 'w', encoding='utf-8') as fsld:
-                    #заполняем стилем файл sld
-                    fsld.write(dictionary.styleHeading + '\n')
-                    fsld.write(fullStyle)
-                    fsld.write(dictionary.styleFooting + '\n')
-
-                layerPrev = layer
-                fullStyle = ''
-                if iscor[0]:
-                    fullStyle += MapInfoToSLD.convertStyle(style, key)
-                else:
-                    ferr.write(iscor[1])
-                continue
-            else:
-                if iscor[0]:
-                    fullStyle += MapInfoToSLD.convertStyle(style, key)
-                else:
-                    ferr.write(iscor[1])
-                continue
-
-
-print('Конвертация завершена\n\n')
-input("Нажмите Enter")
-
-# пример ключа, стиля и слоя
-# key: m_200_roads_g_ & lt;MI_STYLE & gt;Pen(1, 65, 15774720) & lt;/MI_STYLE & gt;
-# style: Pen,1,65,15774720'
-# layer: m_200_roads_g
+# print(round( (cm + cb)/ 2))
+#
+# rm = round(cm / 65535)
+# print("rm = " + str(rm))
+# gm = round((cm % 65535) / 255)
+# print("gm = " + str(gm))
+# bm = round(cm % 255)
+# print("bm = " + str(bm))
+# print(rm * 65535 + gm * 255 + bm)
+# print(re.sub('0x', '', '#' + str(hex(rm * 65535 + gm * 255 + bm))))
+# print("================")
+#
+# rb = round(cb / 65535)
+# print("rb = " + str(rb))
+# gb = round((cb % 65535) / 255)
+# print("gb = " + str(gb))
+# bb = round(cb % 255)
+# print("bb = " + str(bb))
+# print(re.sub('0x', '', '#' + str(hex(rb * 65535 + gb * 255 + bb))))
+# print("================")
+#
+# rres = round((rm + rb) / 2)
+# print("rres = " + str(rres))
+# gres = round((gm + gb) / 2)
+# print("bres = " + str(gres))
+# bres = round((bm + bb) / 2)
+# print("gres = " + str(bres))
+# print("================")
+#
+# print(rres * 65535 + gres * 255 + bres)
+# cres = re.sub('0x', '', '#' + str(hex(rres * 65535 + gres * 255 + bres)))
+# print(cres)
