@@ -1071,92 +1071,17 @@ penDict = {0: ['''        <LineSymbolizer>
   </Graphic>
 </PointSymbolizer>\n'''],
     65: ['''          <LineSymbolizer>
-                       <Stroke>
-                         <GraphicStroke>
-                           <Graphic>
-                             <Mark>
-                               <WellKnownName>ttf://Line_Styles#94</WellKnownName>
-                               <Fill>
-                                 <CssParameter name="fill">''',
-
-         '#000000',
-
-         '''</CssParameter>
-             </Fill>
-           </Mark>
-         </Graphic>
-       </GraphicStroke>
-     </Stroke>
-   </LineSymbolizer>\n''',
-
-         '''          <LineSymbolizer>
-     <Stroke>
-       <GraphicStroke>
-         <Graphic>
-           <Mark>
-             <WellKnownName>ttf://Line_Styles#95</WellKnownName>
-             <Fill>
-               <CssParameter name="fill">''',
-
-         'color',
-
-         '''</CssParameter>
-             </Fill>
-           </Mark>
-         </Graphic>
-       </GraphicStroke>
-     </Stroke>
-   </LineSymbolizer>\n''',
-
-         '''<PointSymbolizer>
-<Geometry>
-  <ogc:Function name="startPoint">
-    <ogc:PropertyName>pg_geom</ogc:PropertyName>
-  </ogc:Function>
-</Geometry>
-<Graphic>
-  <Mark>
-    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-    <Fill>
-      <CssParameter name="fill">''',
-
-         '#000000',
-
-         '''</CssParameter>
-    </Fill>
-  </Mark>
-  <Rotation>
-    <ogc:Function name="startAngle">
-      <ogc:PropertyName>pg_geom</ogc:PropertyName>
-    </ogc:Function>
-  </Rotation>
-</Graphic>
-</PointSymbolizer>\n''',
-
-         '''<PointSymbolizer>
-<Geometry>
-  <ogc:Function name="endPoint">
-    <ogc:PropertyName>pg_geom</ogc:PropertyName>
-  </ogc:Function>
-</Geometry>
-<Graphic>
-  <Mark>
-    <WellKnownName>ttf://Line_Styles#96</WellKnownName>
-    <Fill>
-      <CssParameter name="fill">''',
-
-         '#000000',
-
-         '''</CssParameter>
-    </Fill>
-  </Mark>
-  <Rotation>
-    <ogc:Function name="endAngle">
-      <ogc:PropertyName>pg_geom</ogc:PropertyName>
-    </ogc:Function>
-  </Rotation>
-</Graphic>
-</PointSymbolizer>\n'''],
+            <Stroke>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke">#000000</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+                    <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke">''','color','''</CssParameter>
+            </Stroke>
+          </LineSymbolizer>\n'''],
 
            64: ['''        <LineSymbolizer>
             <Stroke>
@@ -1584,10 +1509,16 @@ penDict = {0: ['''        <LineSymbolizer>
     </Mark>
   </Graphic>
 </PointSymbolizer>\n'''],
-        88: ['''          <LineSymbolizer>
+        88: ['''           <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#0</CssParameter>
+              <CssParameter name="stroke-width">3.5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+          <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">''','color','''</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter>
+              <CssParameter name="stroke-width">1.8</CssParameter>
             </Stroke>
           </LineSymbolizer>\n'''],
         89: [ '''         <LineSymbolizer>
@@ -1799,6 +1730,49 @@ penDict = {0: ['''        <LineSymbolizer>
               <CssParameter name="stroke-dasharray">5 15</CssParameter>                  
             </Stroke>
             <PerpendicularOffset>0.5</PerpendicularOffset>
+          </LineSymbolizer>\n'''],
+           110: ['''                  <LineSymbolizer>
+          <Stroke>
+            <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+            <CssParameter name="stroke-width">1</CssParameter>
+          </Stroke>
+        </LineSymbolizer>
+        <LineSymbolizer>
+          <Stroke>
+            <GraphicStroke>
+              <Graphic>
+                <Mark>
+                  <WellKnownName>shape://vertline</WellKnownName>
+                  <Stroke>
+                    <CssParameter name="stroke">''',
+                'color',
+                '''</CssParameter>
+                    <CssParameter name="stroke-width">1</CssParameter>
+                    <CssParameter name="stroke-dasharray">5 5</CssParameter>
+                  </Stroke>
+                </Mark>
+                <Size>5</Size>
+              </Graphic>
+            </GraphicStroke>
+          </Stroke>
+        </LineSymbolizer>\n'''],
+           122: ['''          <LineSymbolizer>
+            <Stroke>
+              <GraphicStroke>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>ttf://Line_Styles#130</WellKnownName>
+                    <Fill>
+                      <CssParameter name="fill">#000000</CssParameter>
+                    </Fill>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
+              </GraphicStroke>
+              <CssParameter name="stroke-dasharray">8 8</CssParameter>
+            </Stroke>
           </LineSymbolizer>\n''']}
 
 

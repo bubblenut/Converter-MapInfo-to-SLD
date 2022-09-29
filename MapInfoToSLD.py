@@ -7,7 +7,12 @@ def convertSymbolTTF(line: str, key: str):
     symattr = line.split(",")
     shape = int(symattr[1])
     color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
-    size = str(0.35 * int(symattr[3])) #добавлен коэф размера, вероятно формула там сложнее, исправить, поискать
+    # добавлен коэф размера, вероятно формула там сложнее, исправить, поискать
+    if int(symattr[3]) > 16:
+        size = str(0.35 * int(symattr[3]))
+    else:
+        size = symattr[3]
+
     fontname = symattr[4].strip("\"")
     fontstyle = symattr[5]
 
