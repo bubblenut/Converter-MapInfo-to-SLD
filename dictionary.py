@@ -1806,6 +1806,38 @@ brushDict = [''' <PolygonSymbolizer>
   </Fill>
 </PolygonSymbolizer>\n''']
 
+brushDictTransparentBg = [''' <PolygonSymbolizer>
+  <Fill>
+    <GraphicFill>
+      <Graphic>
+      <ExternalGraphic>\n''',
+             'pattern',
+             '''        \n<Format>image/svg+xml</Format>
+     </ExternalGraphic>
+      <Size>2</Size>
+    </Graphic>
+   </GraphicFill>
+  </Fill>
+</PolygonSymbolizer>\n''']
+
+
+swamp = '''        <PolygonSymbolizer>
+          <Fill>
+            <GraphicFill>
+              <Graphic>
+                <Mark>
+                  <WellKnownName>shape://horline</WellKnownName>
+                  <Stroke>
+                    <CssParameter name="stroke">#80c0</CssParameter>
+                    <CssParameter name="stroke-width">1</CssParameter>
+                  </Stroke>
+                </Mark>
+                <Size>6</Size>
+              </Graphic>
+            </GraphicFill>
+          </Fill>
+        </PolygonSymbolizer>'''
+
 
 brushPattern = {
     '1': 1,

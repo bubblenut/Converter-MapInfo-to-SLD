@@ -1,23 +1,3 @@
-import re
-cm = 10157824
-cb = 16777215
-
-cmhex = re.sub("0x", "", str(hex(cm))).zfill(6)
-print("#" + cmhex)
-cbhex = re.sub("0x", "", str(hex(cb))).zfill(6)
-print("#" + cbhex)
-
-print("========================")
-
-rres = hex(round(( int(cmhex[:2],16) + int(cbhex[:2],16) ) / 2))
-gres = hex(round(( int(cmhex[2:-2],16) + int(cbhex[2:-2],16) ) / 2))
-bres = hex(round(( int(cmhex[-2:],16) + int(cbhex[-2:],16) ) / 2))
-
-rres = re.sub("0x", "", rres)
-gres = re.sub("0x", "", gres)
-bres = re.sub("0x", "", bres)
-
-print("#" + rres + gres + bres)
 # print(rres)
 
 
@@ -53,3 +33,13 @@ print("#" + rres + gres + bres)
 # print(rres * 65535 + gres * 255 + bres)
 # cres = re.sub('0x', '', '#' + str(hex(rres * 65535 + gres * 255 + bres)))
 # print(cres)
+import extractor
+
+a = '<MI_STYLE>Pen (1,1,0) Brush(18,8388608,16777215)</MI_STYLE>'
+style = extractor.extractStyle(a)
+arr = style.split(',')
+print(arr)
+if 'Brush' in arr:
+    print(1)
+else:
+    print(2)

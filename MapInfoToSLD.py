@@ -1,18 +1,14 @@
 import re
 import dictionary
 
-def convertSymbolTTF(line: str, key: str):
+def convertSymbolTTF(line: str, key: str) -> str:
     symdict = dictionary.symbolDictTTF
 
-    symattr = line.split(",")
+    symattr:list = line.split(",")
     shape = int(symattr[1])
     color = re.sub('0x', '', '#' + str(hex(int(symattr[2].replace(")", "")))))
     # добавлен коэф размера, вероятно формула там сложнее, исправить, поискать
-    if int(symattr[3]) > 16:
-        size = str(0.35 * int(symattr[3]))
-    else:
-        size = symattr[3]
-
+    size = str(0.5 * int(symattr[3]))
     fontname = symattr[4].strip("\"")
     fontstyle = symattr[5]
 
@@ -33,11 +29,44 @@ def convertSymbolTTF(line: str, key: str):
 
     return res + '\t  </Rule>\n' + '  </FeatureTypeStyle>\n\n'
 
+def convertTransparentBgBrush(line: str, key: str) -> str:
+    if 'swamp' in key:
+        res = '  <FeatureTypeStyle>' + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting + dictionary.swamp
+        return res + '\t  </Rule>\n' + '  </FeatureTypeStyle>\n\n'
 
-def convertBrush(line: str, key: str):
+    brushdict: dict = dictionary.brushDictTransparentBg
+    pendict: dict = dictionary.penDict
+
+    params: list = line.split(",")
+    widthPen:str = params[1]
+    patternPen:int = int(params[2])
+    colorPen:str = re.sub('0x', '', '#'+str(hex(int(params[3].replace(")", "")))))
+    patternBrush:str = params[5]
+    colorMain:str = re.sub('0x', '', '#'+str(hex(int(params[6].replace(')', '')))))
+
+    res = '  <FeatureTypeStyle>' + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting
+    for elem in dictionary.brushDictSimple:
+        if elem == 'colorMain':
+            elem = colorMain
+        res += elem
+
+    if int(widthPen) > 7:
+        widthPen = str((int(widthPen) - 10) / 10)
+    if patternPen != 1:
+        for elem in pendict[patternPen]:
+            if elem == 'width':
+                elem = widthPen
+            if elem == 'color':
+                elem = colorPen
+            res += elem
+
+    return res + '\t  </Rule>\n' + '  </FeatureTypeStyle>\n\n'
+
+
+def convertBrush(line: str, key: str) -> str:
     penDict = dictionary.penDict
 
-    params = line.split(",")
+    params:list = line.split(",")
 
     widthPen:str = params[1]
     patternPen:int = int(params[2])
@@ -46,8 +75,8 @@ def convertBrush(line: str, key: str):
     colorMain:str = re.sub('0x', '', '#'+str(hex(int(params[6].replace(')', '')))))
     colorBg:str = re.sub('0x', '', '#'+str(hex(int(params[7].replace(')', '')))))
 
-    #смешивание цветов фона и основного цвета для 15 шаблона
-    if int(patternBrush) == 15:
+    #смешивание цветов фона и основного цвета
+    if int(patternBrush) > 2:
         cmhex = re.sub("0x", "", str(hex(int(params[6])))).zfill(6)
         cbhex = re.sub("0x", "", str(hex(int(params[7])))).zfill(6)
         rres = hex(round((int(cmhex[:2], 16) + int(cbhex[:2], 16)) / 2))
@@ -65,30 +94,16 @@ def convertBrush(line: str, key: str):
 
     res = '  <FeatureTypeStyle>'  + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting
 
-    #
-    # if int(patternBrush) != 1 and int(patternBrush) != 0 :
-    #     if (int(patternBrush) == 2 or int(patternBrush) == 15):
-    #         for elem  in dictionary.brushDictSimple:
-    #             if elem == 'colorMain':
-    #                 elem = colorMain
-    #             res += elem
     if int(patternBrush) != 1 and int(patternBrush) != 0 :
         if (int(patternBrush) == 2 or int(patternBrush) == 15):
             for elem  in dictionary.brushDictSimple:
                 if elem == 'colorMain':
                     elem = colorMain
                 res += elem
-        else:
-            for elem in dictionary.brushDict:
-                if elem == 'pattern':
-                    elem = '''<OnlineResource xlink:href="images/''' + str(dictionary.brushPattern[patternBrush]) + '''.svg?fill='''+ colorMain + '''" xlink:type="simple"/>'''
-                if elem == 'colorBg':
-                    elem = colorBg
-                res += elem
 
+    #меняем размер потому что в мапинфо разные едининцы измерения толщины до и после 7
     if int(widthPen) > 7:
         widthPen = str((int(widthPen) - 10) / 10)
-
     if patternPen != 1:
         for elem in penDict[patternPen]:
             if elem == 'width':
@@ -103,7 +118,7 @@ def convertBrush(line: str, key: str):
 def convertPen(line: str, key: str):
     dict = dictionary.penDict
 
-    params = line.split(",")
+    params:list = line.split(",")
     width = params[1]
     pattern = int(params[2])
     color = re.sub('0x', '', '#'+str(hex(int(params[3].replace(")", "")))))
@@ -129,6 +144,9 @@ def convertStyle(style: str, key: str) -> str:
     if len(stylearr) == 8:
         return convertBrush(style, key)
     elif len(stylearr) == 7:
-        return convertSymbolTTF(style, key)
+        if 'Brush' in stylearr:
+            return convertTransparentBgBrush(style, key)
+        else:
+            return convertSymbolTTF(style, key)
     else:
         return convertPen(style, key)
