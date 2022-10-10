@@ -94,12 +94,11 @@ def convertBrush(line: str, key: str) -> str:
 
     res = '  <FeatureTypeStyle>'  + '\n\t  <Rule>\n' + dictionary.filterHeading + key + dictionary.filterFooting
 
-    if int(patternBrush) != 1 and int(patternBrush) != 0 :
-        if (int(patternBrush) == 2 or int(patternBrush) == 15):
-            for elem  in dictionary.brushDictSimple:
-                if elem == 'colorMain':
-                    elem = colorMain
-                res += elem
+    if int(patternBrush) != 1 and int(patternBrush) != 0:
+        for elem  in dictionary.brushDictSimple:
+            if elem == 'colorMain':
+                elem = colorMain
+            res += elem
 
     #меняем размер потому что в мапинфо разные едининцы измерения толщины до и после 7
     if int(widthPen) > 7:
